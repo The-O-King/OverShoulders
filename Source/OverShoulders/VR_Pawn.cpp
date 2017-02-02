@@ -30,6 +30,7 @@ AVR_Pawn::AVR_Pawn()
 	HMD = CreateDefaultSubobject<UCameraComponent>(TEXT("HMD"));
 	HMD->SetupAttachment(Container);
 
+	// Create the players Left and Right hands
 	Left = CreateDefaultSubobject<UHandComponent>(TEXT("Left"));
 	Left->SetupAttachment(Container);
 	Left->RegisterComponent();
@@ -37,9 +38,6 @@ AVR_Pawn::AVR_Pawn()
 	Left->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/VR_Controller"), NULL, LOAD_None, NULL));
 	Left->Mesh->Rename(TEXT("Left Mesh"));
 	Left->HoldLocation->Rename(TEXT("Left Hold Loc"));
-	//Should be mesh or handcomponent still unsure...
-	Left->OnComponentBeginOverlap.AddDynamic(this, &AVR_Pawn::OnHandOverlapBegin);
-	Left->OnComponentEndOverlap.AddDynamic(this, &AVR_Pawn::OnHandOverlapEnd);
 
 	Right = CreateDefaultSubobject<UHandComponent>(TEXT("Right"));
 	Right->SetupAttachment(Container);
@@ -48,9 +46,6 @@ AVR_Pawn::AVR_Pawn()
 	Right->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/VR_Controller"), NULL, LOAD_None, NULL));
 	Right->Mesh->Rename(TEXT("Right Mesh"));
 	Right->HoldLocation->Rename(TEXT("Right Hold Loc"));
-	//Should be mesh or handcomponent still unsure...
-	Right->OnComponentBeginOverlap.AddDynamic(this, &AVR_Pawn::OnHandOverlapBegin);
-	Right->OnComponentEndOverlap.AddDynamic(this, &AVR_Pawn::OnHandOverlapEnd);
 
 	// Create SteamVR Chaperone
 	SteamVR = CreateDefaultSubobject<USteamVRChaperoneComponent>(TEXT("SteamVRChaperoneComponent"));
@@ -78,16 +73,16 @@ void AVR_Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 
 }
 
-void AVR_Pawn::OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
-	AInteractActor* hit = Cast<AInteractActor>(OtherActor);
-	if (hit != NULL) {
-		//Should be mesh or should me handcomponent?
-		UHandComponent* overlappedHand = Cast<UHandComponent>(OverlappedComp);
-		overlappedHand->Nearby = hit;
-	}
-}
-
-void AVR_Pawn::OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex){
-	UHandComponent* overlappedHand = Cast<UHandComponent>(OverlappedComp);
-	overlappedHand->Nearby = NULL;
-}
+//void AVR_Pawn::OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
+//	AInteractActor* hit = Cast<AInteractActor>(OtherActor);
+//	if (hit != NULL) {
+//		//Should be mesh or should me handcomponent?
+//		UHandComponent* overlappedHand = Cast<UHandComponent>(OverlappedComp);
+//		overlappedHand->Nearby = hit;
+//	}
+//}
+//
+//void AVR_Pawn::OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex){
+//	UHandComponent* overlappedHand = Cast<UHandComponent>(OverlappedComp);
+//	overlappedHand->Nearby = NULL;
+//}

@@ -20,12 +20,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaSeconds) override;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		USceneComponent* DefaultRoot;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* Shape;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		bool IsInteracted;
 
 };

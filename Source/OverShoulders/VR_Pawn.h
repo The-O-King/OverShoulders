@@ -23,25 +23,21 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	void OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-	void OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-
-
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		USceneComponent* DefaultRoot;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UCapsuleComponent* Body;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		USceneComponent* Container;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UCameraComponent* HMD;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		class UHandComponent* Left;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		class UHandComponent* Right;
 
-		UPROPERTY(VisibleAnywhere)
+		UPROPERTY(EditAnywhere)
 		class USteamVRChaperoneComponent* SteamVR;
 
 };

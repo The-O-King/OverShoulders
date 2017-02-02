@@ -17,13 +17,19 @@ public:
 
 	UHandComponent();
 
-	UPROPERTY(VisibleAnywhere)
+	UFUNCTION()
+	void OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+	void OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+
+	UPROPERTY(EditAnywhere)
 		class AInteractActor* IsBusy;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		class AInteractActor* Nearby;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* Mesh;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UArrowComponent* HoldLocation;
 
 };
