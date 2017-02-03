@@ -25,6 +25,7 @@ void UHandComponent::OnHandOverlapBegin(UPrimitiveComponent * OverlappedComp, AA
 	if (hit != NULL) {
 		UE_LOG(LogTemp, Warning, TEXT("Overlap Begin"));
 		Nearby = hit;
+		hit->Shape->SetSimulatePhysics(true);
 	}
 }
 

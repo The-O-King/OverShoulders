@@ -72,17 +72,3 @@ void AVR_Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	Super::SetupPlayerInputComponent(InputComponent);
 
 }
-
-//void AVR_Pawn::OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
-//	AInteractActor* hit = Cast<AInteractActor>(OtherActor);
-//	if (hit != NULL) {
-//		//Should be mesh or should me handcomponent?
-//		UHandComponent* overlappedHand = Cast<UHandComponent>(OverlappedComp);
-//		overlappedHand->Nearby = hit;
-//	}
-//}
-//
-//void AVR_Pawn::OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex){
-//	UHandComponent* overlappedHand = Cast<UHandComponent>(OverlappedComp);
-//	overlappedHand->Nearby = NULL;
-//}

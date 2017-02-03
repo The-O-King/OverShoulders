@@ -13,7 +13,7 @@ AInteractActor::AInteractActor()
 	// Create Default Root Object
 	DefaultRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 
-	// Create Default Root Object
+	// Create Static Mesh of Object
 	Shape = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shape"));
 	Shape->SetupAttachment(DefaultRoot);
 }
