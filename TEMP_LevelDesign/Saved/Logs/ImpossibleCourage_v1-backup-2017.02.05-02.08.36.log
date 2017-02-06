@@ -1,0 +1,1351 @@
+﻿Log file open, 02/05/17 01:27:47
+LogInit:Display: Running engine for game: ImpossibleCourage_v1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(212131661) SRandInit(212131661).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063469
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Unreal/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Unreal/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.05-06.27.47:893][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.05-06.27.47:893][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.05-06.27.47:918][  0]LogInit: Computer: DESKTOP-F8HDSMU
+[2017.02.05-06.27.47:918][  0]LogInit: User: TheSittingHun
+[2017.02.05-06.27.47:918][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.05-06.27.47:918][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2017.02.05-06.27.47:918][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.02.05-06.27.47:918][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.05-06.27.47:918][  0]LogMemory: Process Physical Memory: 264.57 MB used, 264.57 MB peak
+[2017.02.05-06.27.47:918][  0]LogMemory: Process Virtual Memory: 262.80 MB used, 262.80 MB peak
+[2017.02.05-06.27.47:918][  0]LogMemory: Physical Memory: 5455.97 MB used,  10877.55 MB free, 16333.52 MB total
+[2017.02.05-06.27.47:918][  0]LogMemory: Virtual Memory: 676.41 MB used,  10877.55 MB free, 134217728.00 MB total
+[2017.02.05-06.27.48:173][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.05-06.27.51:077][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.05-06.27.51:112][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.02.05-06.27.51:112][  0]LogD3D11RHI:       4060/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.02.05-06.27.51:114][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.05-06.27.51:114][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.05-06.27.51:114][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.05-06.27.51:118][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.05-06.27.51:118][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.05-06.27.51:118][  0]LogWindows: EnumDisplayDevices:
+[2017.02.05-06.27.51:118][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.02.05-06.27.51:118][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.02.05-06.27.51:118][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.02.05-06.27.51:118][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.02.05-06.27.51:118][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.05-06.27.51:118][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.02.05-06.27.51:118][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.02.05-06.27.51:118][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.02.05-06.27.51:118][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.05-06.27.51:129][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.05-06.27.51:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.02.05-06.27.51:139][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Intermediate/Shaders/WorkingDirectory/12696/).
+[2017.02.05-06.27.51:139][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/The Sitting Hun/AppData/Local/Temp/UnrealShaderWorkingDir/3F3D38894C2F78B7BA58D1B9E2C73AB5/'.
+[2017.02.05-06.27.51:139][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.05-06.27.52:416][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.05-06.27.52:447][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.05-06.27.52:478][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.05-06.27.52:510][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.05-06.27.52:558][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.05-06.27.52:590][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.05-06.27.52:621][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.05-06.27.52:651][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.05-06.27.52:675][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.05-06.27.52:707][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.05-06.27.52:738][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.05-06.27.52:768][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.05-06.27.52:798][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.05-06.27.52:829][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.05-06.27.52:859][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.05-06.27.52:919][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.05-06.27.52:919][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.05-06.27.52:938][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.05-06.27.53:075][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.05-06.27.53:095][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.05-06.27.53:126][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.05-06.27.53:156][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.05-06.27.53:186][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.05-06.27.53:231][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.05-06.27.53:231][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.05-06.27.53:695][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.05-06.27.53:973][  0]LogDerivedDataCache: Loaded boot cache 0.28s 50MB C:/Users/The Sitting Hun/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.05-06.27.53:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/The Sitting Hun/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.05-06.27.53:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.05-06.27.53:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.05-06.27.53:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.05-06.27.53:973][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.05-06.27.53:995][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.05-06.27.54:006][  0]LogDerivedDataCache: Using Local data cache path C:/Users/The Sitting Hun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.05-06.27.57:255][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.05-06.27.57:258][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.05-06.27.57:396][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.05-06.27.57:461][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.05-06.27.57:505][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.05-06.27.57:505][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.05-06.27.57:505][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.05-06.27.58:032][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: impossiblecourage_v1, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3373429975
+[2017.02.05-06.27.58:096][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.02.05-06.27.58:131][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025397 seconds
+[2017.02.05-06.27.58:135][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.05-06.27.58:135][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.02.05-06.27.58:135][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.05-06.27.58:185][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.05-06.27.59:367][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.05-06.27.59:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.05-06.27.59:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.05-06.28.12:309][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.05-06.28.12:352][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.05-06.28.12:659][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.05-06.28.12:961][  0]SourceControl: Info Source control is disabled
+[2017.02.05-06.28.12:961][  0]SourceControl: Info Source control is disabled
+[2017.02.05-06.28.13:066][  0]SourceControl: Info Source control is disabled
+[2017.02.05-06.28.13:115][  0]SourceControl: Info Source control is disabled
+[2017.02.05-06.28.14:289][  0]LogEngine: Initializing Engine...
+[2017.02.05-06.28.14:694][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.02.05-06.28.14:897][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.05-06.28.14:922][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.05-06.28.14:935][  0]LogInit: FAudioDevice initialized.
+[2017.02.05-06.28.14:955][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/The Sitting Hun/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.05-06.28.14:962][  0]LogInit: Texture streaming: Enabled
+[2017.02.05-06.28.15:188][  0]LogInit: Transaction tracking system initialized
+[2017.02.05-06.28.15:561][  0]BlueprintLog: New page: Editor Load
+[2017.02.05-06.28.16:346][  0]LocalizationService: Info Localization service is disabled
+[2017.02.05-06.28.16:979][  0]LogConsoleResponse:Display: 
+[2017.02.05-06.28.17:409][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.05-06.28.17:409][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.05-06.28.18:179][  0]LogFileCache: Scanning file cache for directory 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/' took 0.01s
+[2017.02.05-06.28.18:658][  0]SourceControl: Info Source control is disabled
+[2017.02.05-06.28.18:658][  0]Cmd: MAP LOAD FILE="E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.05-06.28.18:659][  0]LightingResults: New page: Lighting Build
+[2017.02.05-06.28.18:678][  0]MapCheck: New page: Map Check
+[2017.02.05-06.28.18:678][  0]LightingResults: New page: Lighting Build
+[2017.02.05-06.28.18:929][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.02.05-06.28.18:930][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.02.05-06.28.19:035][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.05-06.28.19:035][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.05-06.28.19:057][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.481ms to complete.
+[2017.02.05-06.28.19:057][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.399
+[2017.02.05-06.28.19:108][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.05-06.28.19:176][  0]LogCollectionManager: Loaded 0 collections in 0.000594 seconds
+[2017.02.05-06.28.19:232][  0]LogFileCache: Scanning file cache for directory 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Collections/' took 0.01s
+[2017.02.05-06.28.19:232][  0]LogFileCache: Scanning file cache for directory 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/Developers/TheSittingHun/Collections/' took 0.01s
+[2017.02.05-06.28.19:232][  0]LogFileCache: Scanning file cache for directory 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/Collections/' took 0.01s
+[2017.02.05-06.28.19:232][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.02.05-06.28.19:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2190 classes and 428 folders.
+[2017.02.05-06.28.19:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.05-06.28.19:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.05-06.28.19:258][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2017.02.05-06.28.19:287][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.02.05-06.28.19:971][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.05-06.28.20:087][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.05-06.28.20:168][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.05-06.28.20:173][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.05-06.28.20:230][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.05-06.28.20:230][  0]LogLoad: (Engine Initialization) Total time: 34.11 seconds
+[2017.02.05-06.28.20:230][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.02.05-06.28.20:230][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.05-06.28.20:230][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.05-06.28.20:239][  0]LogOcInput: OculusInput pre-init called
+[2017.02.05-06.28.20:252][  0]LogAssetRegistry: Asset discovery search completed in 22.1774 seconds
+[2017.02.05-06.28.20:252][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.05-06.28.20:252][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2017.02.05-06.28.20:255][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.05-06.28.20:417][  0]LogRenderer: Reallocating scene render targets to support 1540x1284 NumSamples 1 (Frame:2).
+[2017.02.05-06.28.47:892][255]LogAIModule: Creating AISystem for world 01_Libya
+[2017.02.05-06.28.47:904][255]Cmd: MAP LOAD FILE="E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.05-06.28.47:904][255]LightingResults: New page: Lighting Build
+[2017.02.05-06.28.47:905][255]LoadErrors: New page: Loading map: 01_Libya.umap
+[2017.02.05-06.28.47:905][255]MapCheck: New page: Map Check
+[2017.02.05-06.28.47:905][255]LightingResults: New page: Lighting Build
+[2017.02.05-06.28.47:967][255]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.05-06.28.47:980][255]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.05-06.28.48:002][255]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.027ms to complete.
+[2017.02.05-06.28.48:002][255]LogFileHelpers: Loading map '01_Libya' took 0.098
+[2017.02.05-06.29.45:858][ 87]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_Floor.fbx)
+[2017.02.05-06.29.45:873][ 87]LogFbx: ItemName: Model, ItemCount : 1
+[2017.02.05-06.29.45:873][ 87]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.02.05-06.29.45:873][ 87]LogFbx: ItemName: Material, ItemCount : 1
+[2017.02.05-06.29.45:873][ 87]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.02.05-06.29.45:873][ 87]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.02.05-06.29.45:877][ 87]LogFbx: Loading FBX Scene from E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_Floor.fbx
+[2017.02.05-06.29.45:883][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.05-06.30.01:214][ 87]LogFbx: Loading FBX Scene from E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_Floor.fbx
+[2017.02.05-06.30.01:220][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.05-06.30.01:222][ 87]LogFbx:Warning: Triangulating static mesh LibyaApartment_Floor_013
+[2017.02.05-06.30.01:223][ 87]LogStaticMesh: Building static mesh LibyaApartment_Floor...
+[2017.02.05-06.30.01:224][ 87]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_Floor.LibyaApartment_Floor
+[2017.02.05-06.30.01:235][ 87]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_Wall.fbx)
+[2017.02.05-06.30.01:248][ 87]LogFbx: Loading FBX Scene from E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_Wall.fbx
+[2017.02.05-06.30.01:254][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.05-06.30.01:256][ 87]LogFbx:Warning: Triangulating static mesh LibyaApartment_Wall_011
+[2017.02.05-06.30.01:257][ 87]LogStaticMesh: Building static mesh LibyaApartment_Wall...
+[2017.02.05-06.30.01:258][ 87]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_Wall.LibyaApartment_Wall
+[2017.02.05-06.30.01:264][ 87]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_WallShort.fbx)
+[2017.02.05-06.30.01:275][ 87]LogFbx: Loading FBX Scene from E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_WallShort.fbx
+[2017.02.05-06.30.01:280][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.05-06.30.01:282][ 87]LogFbx:Warning: Triangulating static mesh LibyaApartment_Wall_013
+[2017.02.05-06.30.01:284][ 87]LogStaticMesh: Building static mesh LibyaApartment_WallShort...
+[2017.02.05-06.30.01:285][ 87]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_WallShort.LibyaApartment_WallShort
+[2017.02.05-06.30.01:291][ 87]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_WallSide.fbx)
+[2017.02.05-06.30.01:299][ 87]LogFbx: Loading FBX Scene from E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_WallSide.fbx
+[2017.02.05-06.30.01:304][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.05-06.30.01:306][ 87]LogFbx:Warning: Triangulating static mesh LibyaApartment_Wall_012
+[2017.02.05-06.30.01:308][ 87]LogStaticMesh: Building static mesh LibyaApartment_WallSide...
+[2017.02.05-06.30.01:309][ 87]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_WallSide.LibyaApartment_WallSide
+[2017.02.05-06.30.01:315][ 87]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_WindowWall.fbx)
+[2017.02.05-06.30.01:325][ 87]LogFbx: Loading FBX Scene from E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/Meshes/LibyaApartment_WindowWall.fbx
+[2017.02.05-06.30.01:331][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.05-06.30.01:333][ 87]LogFbx:Warning: Triangulating static mesh LibyaApartment_Wall_010
+[2017.02.05-06.30.01:340][ 87]LogStaticMesh: Building static mesh LibyaApartment_WindowWall...
+[2017.02.05-06.30.01:343][ 87]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_WindowWall.LibyaApartment_WindowWall
+[2017.02.05-06.30.07:522][743]LogActorFactory: Actor Factory created LibyaApartment_Floor
+[2017.02.05-06.30.07:523][743]LogActorFactory: Actor Factory created LibyaApartment_Wall
+[2017.02.05-06.30.07:523][743]LogActorFactory: Actor Factory created LibyaApartment_WallShort
+[2017.02.05-06.30.07:523][743]LogActorFactory: Actor Factory created LibyaApartment_WallSide
+[2017.02.05-06.30.07:524][743]LogActorFactory: Actor Factory created LibyaApartment_WindowWall
+[2017.02.05-06.30.11:892][261]LogActorFactory: Actor Factory created LibyaApartment_Floor
+[2017.02.05-06.30.11:907][261]LogActorFactory: Actor Factory created LibyaApartment_Wall
+[2017.02.05-06.30.11:919][261]LogActorFactory: Actor Factory created LibyaApartment_WallShort
+[2017.02.05-06.30.11:933][261]LogActorFactory: Actor Factory created LibyaApartment_WallSide
+[2017.02.05-06.30.11:945][261]LogActorFactory: Actor Factory created LibyaApartment_WindowWall
+[2017.02.05-06.30.13:484][433]Cmd: TRANSACTION UNDO
+[2017.02.05-06.30.13:492][433]LogEditorTransaction: Undo Create Actors
+[2017.02.05-06.30.16:591][751]LogActorFactory: Actor Factory created LibyaApartment_Floor
+[2017.02.05-06.30.18:404][967]LogActorFactory: Actor Factory created LibyaApartment_Floor
+[2017.02.05-06.31.36:681][831]LogActorFactory: Actor Factory created LibyaApartment_Wall
+[2017.02.05-06.31.40:751][317]LogActorFactory: Actor Factory created LibyaApartment_Wall
+[2017.02.05-06.32.10:028][686]LogActorFactory: Actor Factory created LibyaApartment_WallShort
+[2017.02.05-06.32.11:735][888]LogActorFactory: Actor Factory created LibyaApartment_WallShort
+[2017.02.05-06.33.07:615][520]Cmd: DELETE
+[2017.02.05-06.33.07:615][520]Cmd: ACTOR DELETE
+[2017.02.05-06.33.07:788][520]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.33.07:795][520]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.02.05-06.33.09:423][684]LogActorFactory: Actor Factory created LibyaApartment_WindowWall
+[2017.02.05-06.33.11:545][937]LogActorFactory: Actor Factory created LibyaApartment_WindowWall
+[2017.02.05-06.33.57:178][236]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LibyaApartment_Wall)
+[2017.02.05-06.33.58:715][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Wall)
+[2017.02.05-06.34.01:246][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.34.49:673][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.34.50:118][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.34.50:274][417]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.05-06.34.51:023][504]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.02.05-06.34.51:264][530]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.35.42:601][328]Cmd: TRANSACTION UNDO
+[2017.02.05-06.35.42:601][328]LogEditorTransaction: Undo Scale Actors
+[2017.02.05-06.35.43:296][402]Cmd: TRANSACTION UNDO
+[2017.02.05-06.35.43:296][402]LogEditorTransaction: Undo Move Actors
+[2017.02.05-06.35.52:454][428]LogActorFactory: Actor Factory created LibyaApartment_Wall
+[2017.02.05-06.35.53:708][573]LogActorFactory: Actor Factory created LibyaApartment_Wall
+[2017.02.05-06.36.02:045][507]LogActorFactory: Actor Factory created LibyaApartment_WallSide
+[2017.02.05-06.36.03:105][630]LogActorFactory: Actor Factory created LibyaApartment_WallSide
+[2017.02.05-06.36.32:419][ 34]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.02.05-06.36.33:026][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor3)
+[2017.02.05-06.37.03:165][563]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.02.05-06.38.04:839][593]MapCheck: New page: Map Check
+[2017.02.05-06.38.04:847][593]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.38.04:848][593]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.38.04:911][593]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:38:04 PM
+[2017.02.05-06.38.04:934][593]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.38.04:967][593]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.38.04:972][593]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.38.05:478][593]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.38.05:478][593]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.38.07:884][593]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.38.07:884][593]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.38.07:884][593]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.38.07:884][593]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.38.07:884][593]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.38.07:884][593]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.38.07:980][593]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.38.07:980][593]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:38:07 PM
+[2017.02.05-06.38.08:002][593]MapCheck:Warning: Warning LibyaApartment_2 Static mesh actor has NULL StaticMesh property 
+[2017.02.05-06.38.08:002][593]MapCheck:Warning: Warning LibyaApartment_2 Static mesh actor has NULL StaticMesh property 
+[2017.02.05-06.38.08:002][593]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.38.08:026][593]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 46.451ms to complete.
+[2017.02.05-06.38.08:049][593]LogEditorBuildUtils: Build time 0:03
+[2017.02.05-06.38.08:072][593]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Blank, compiling. 
+[2017.02.05-06.38.08:078][593]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Blank, compiling. 
+[2017.02.05-06.38.09:854][695]Job is a success!
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.02.05-06.38.10:039][696]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.02.05-06.38.10:051][696]Lightmass on DESKTOP-F8HDSMU: 1.10 sec total, 84 ms importing, 12 ms setup, 278 ms photons, 725 ms processing, 0 ms extra exporting [23/23 mappings]. Threads: 4.91 sec total, 2.53 sec processing.
+[2017.02.05-06.38.10:062][696]LogStaticLightingSystem: Illumination: 5.13 sec (111 ms encoding lightmaps, 24 ms encoding shadowmaps)
+[2017.02.05-06.38.10:062][696]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.38.10:062][696]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.38.10:887][696]DumpUnbuiltLightIteractions
+[2017.02.05-06.38.10:887][696]Lights with unbuilt interactions: 0
+[2017.02.05-06.38.10:887][696]
+[2017.02.05-06.38.10:887][696]Primitives with unbuilt interactions: 0
+[2017.02.05-06.38.10:914][697]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.38.10:914][697]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:38:10 PM
+[2017.02.05-06.38.10:915][697]MapCheck:Warning: Warning LibyaApartment_2 Static mesh actor has NULL StaticMesh property 
+[2017.02.05-06.38.10:915][697]MapCheck:Warning: Warning LibyaApartment_2 Static mesh actor has NULL StaticMesh property 
+[2017.02.05-06.38.10:937][697]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 23.321ms to complete.
+[2017.02.05-06.38.35:763][590]Cmd: DELETE
+[2017.02.05-06.38.35:763][590]Cmd: ACTOR DELETE
+[2017.02.05-06.38.35:763][590]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.38.35:771][590]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.02.05-06.38.37:215][763]MapCheck: New page: Map Check
+[2017.02.05-06.38.37:222][763]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.38.37:222][763]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.38.37:270][763]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:38:37 PM
+[2017.02.05-06.38.37:275][763]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.38.37:281][763]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.38.37:281][763]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.38.37:281][763]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.38.37:281][763]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.38.41:794][763]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.38.41:794][763]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.38.41:794][763]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.38.41:794][763]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.38.41:794][763]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.38.41:794][763]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.38.41:854][763]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.38.41:854][763]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:38:41 PM
+[2017.02.05-06.38.41:876][763]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.444ms to complete.
+[2017.02.05-06.38.41:899][763]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.38.43:296][868]Job is a success!
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2017.02.05-06.38.43:468][870]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2017.02.05-06.38.43:482][870]Lightmass on DESKTOP-F8HDSMU: 1.10 sec total, 80 ms importing, 11 ms setup, 278 ms photons, 684 ms processing, 0 ms extra exporting [23/23 mappings]. Threads: 4.63 sec total, 2.36 sec processing.
+[2017.02.05-06.38.43:485][870]LogStaticLightingSystem: Illumination: 6.20 sec (107 ms encoding lightmaps, 23 ms encoding shadowmaps)
+[2017.02.05-06.38.43:485][870]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.38.43:485][870]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.38.48:801][870]DumpUnbuiltLightIteractions
+[2017.02.05-06.38.48:801][870]Lights with unbuilt interactions: 0
+[2017.02.05-06.38.48:801][870]
+[2017.02.05-06.38.48:801][870]Primitives with unbuilt interactions: 0
+[2017.02.05-06.38.48:821][871]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.38.48:821][871]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:38:48 PM
+[2017.02.05-06.38.48:849][871]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.94ms to complete.
+[2017.02.05-06.38.48:850][871]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.02.05-06.38.48:889][871]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LibyaApartment_WindowWall)
+[2017.02.05-06.39.21:106][464]LogSavePackage: Save=9.58ms
+[2017.02.05-06.39.21:106][464]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_FloorCCC651914D04B26218DA3F9AF630361E.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.39.21:108][464]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.39.41:811][505]LogSavePackage: Save=9.98ms
+[2017.02.05-06.39.41:811][505]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_FloorC26092A84C6FB22CB68CF0916219E4EC.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.39.41:812][505]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.40.39:772][361]LogSavePackage: Save=9.90ms
+[2017.02.05-06.40.39:772][361]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Wall8B40882648AC8C807D453193CE38A730.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.39:773][361]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.40:682][454]LogSavePackage: Save=7.02ms
+[2017.02.05-06.40.40:682][454]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallD6CD01984720526BD9776E973B6C4294.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.40:682][454]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.40:911][476]LogSavePackage: Save=3.68ms
+[2017.02.05-06.40.40:911][476]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Wall8983C74440384E58C71587A17BD442AF.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.40:911][476]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.41:077][494]LogSavePackage: Save=3.95ms
+[2017.02.05-06.40.41:077][494]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Wall45933EAC4AF8EF7EB5062E862FD93243.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.41:077][494]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.41:242][509]LogSavePackage: Save=4.12ms
+[2017.02.05-06.40.41:242][509]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Wall63D25C9642DBD2DB7CFC79B49EE7D500.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.41:243][509]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.41:387][524]LogSavePackage: Save=3.48ms
+[2017.02.05-06.40.41:387][524]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallD8AE68FD4B0BF1B6FC954EA891AAFC58.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.41:387][524]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.41:558][540]LogSavePackage: Save=3.95ms
+[2017.02.05-06.40.41:558][540]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallDCD1F6C946D6309C299346A2301085F4.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.41:558][540]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.41:732][559]LogSavePackage: Save=3.85ms
+[2017.02.05-06.40.41:732][559]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallDB65A48240822D0F1C6BCF830B9A14CB.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.40.41:732][559]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.40.56:149][963]LogSavePackage: Save=3.87ms
+[2017.02.05-06.40.56:149][963]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_FloorDA0B45A84484EC6C7B1EDD99B9676B58.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.40.56:150][963]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.41.14:366][729]LogSavePackage: Save=11.61ms
+[2017.02.05-06.41.14:366][729]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShortCF7AB3B64AAB88A8156E01B32E32D6F8.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.41.14:367][729]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.41.14:981][792]LogSavePackage: Save=3.53ms
+[2017.02.05-06.41.14:981][792]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort107A30B544803E8078EC7695710CDA38.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.41.14:981][792]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.41.15:165][809]LogSavePackage: Save=3.62ms
+[2017.02.05-06.41.15:165][809]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort39CFF5654A825FFFA2B01CAF6017A2A2.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.41.15:166][809]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.41.15:301][823]LogSavePackage: Save=3.57ms
+[2017.02.05-06.41.15:301][823]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort762978E04EA8A2D1F253B786C992261D.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.41.15:301][823]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.41.15:491][841]LogSavePackage: Save=3.77ms
+[2017.02.05-06.41.15:491][841]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShortD1B97CCB4F227BE48F14D88C62498AF0.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.41.15:491][841]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.41.15:686][862]LogSavePackage: Save=3.73ms
+[2017.02.05-06.41.15:686][862]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort412A61A849BCE29A46886E9E3CAB2999.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.41.15:687][862]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.41.37:589][968]LogSavePackage: Save=9.83ms
+[2017.02.05-06.41.37:589][968]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSideEA274DB840D18C8D996232A84F26F2BC.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.41.37:590][968]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.41.38:037][ 13]LogSavePackage: Save=4.04ms
+[2017.02.05-06.41.38:037][ 13]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSideE2AD94FB45C11522A04F42B02FA832B1.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.41.38:037][ 13]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.41.38:222][ 30]LogSavePackage: Save=3.65ms
+[2017.02.05-06.41.38:222][ 30]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSideAE4B0E40457B0AC84EFAD1BCACB026EB.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.41.38:222][ 30]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.41.38:518][ 61]LogSavePackage: Save=3.75ms
+[2017.02.05-06.41.38:518][ 61]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSideFA7371AE4B1D271DEFE688876FE03D05.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.41.38:519][ 61]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.41.38:691][ 77]LogSavePackage: Save=3.85ms
+[2017.02.05-06.41.38:691][ 77]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSide839853CF44BFF58F3737EA92FAEA5E14.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.41.38:691][ 77]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.42.00:190][ 81]LogSavePackage: Save=10.12ms
+[2017.02.05-06.42.00:190][ 81]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WindowWall35CBA7BB475BA7083B0A75A0D9B9BC49.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset'
+[2017.02.05-06.42.00:191][ 81]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset
+[2017.02.05-06.42.03:063][390]MapCheck: New page: Map Check
+[2017.02.05-06.42.03:073][390]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.42.03:073][390]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.42.03:130][390]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:42:03 PM
+[2017.02.05-06.42.03:135][390]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.42.03:137][390]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.42.03:137][390]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.42.03:137][390]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.42.03:137][390]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.42.07:645][390]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.42.07:645][390]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.42.07:645][390]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.42.07:645][390]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.42.07:645][390]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.42.07:645][390]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.42.07:713][390]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.42.07:713][390]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:42:07 PM
+[2017.02.05-06.42.07:714][390]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.42.07:737][390]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 24.17ms to complete.
+[2017.02.05-06.42.07:761][390]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.42.09:137][492]Job is a success!
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2017.02.05-06.42.09:327][493]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2017.02.05-06.42.09:343][493]Lightmass on DESKTOP-F8HDSMU: 1.16 sec total, 79 ms importing, 17 ms setup, 287 ms photons, 762 ms processing, 0 ms extra exporting [23/23 mappings]. Threads: 5.18 sec total, 2.83 sec processing.
+[2017.02.05-06.42.09:343][493]LogStaticLightingSystem: Illumination: 6.19 sec (115 ms encoding lightmaps, 23 ms encoding shadowmaps)
+[2017.02.05-06.42.09:343][493]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.42.09:343][493]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.42.09:647][493]DumpUnbuiltLightIteractions
+[2017.02.05-06.42.09:647][493]Lights with unbuilt interactions: 0
+[2017.02.05-06.42.09:647][493]
+[2017.02.05-06.42.09:647][493]Primitives with unbuilt interactions: 0
+[2017.02.05-06.42.09:672][494]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.42.09:672][494]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:42:09 PM
+[2017.02.05-06.42.09:697][494]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.136ms to complete.
+[2017.02.05-06.42.35:918][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor5)
+[2017.02.05-06.42.42:023][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.42.52:551][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor)
+[2017.02.05-06.43.17:399][185]LogSavePackage: Save=9.23ms
+[2017.02.05-06.43.17:399][185]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_FloorE5169F41462D8B7387D393B62B88FF25.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.43.17:401][185]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.43.18:193][264]LogSavePackage: Save=3.59ms
+[2017.02.05-06.43.18:193][264]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Floor4D0107B443E49E7FDC49D6ACE0F0B84B.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.43.18:193][264]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.43.18:380][281]LogSavePackage: Save=3.64ms
+[2017.02.05-06.43.18:380][281]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Floor2380D2B44091D7F7E2B162A1809044B2.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.43.18:380][281]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.43.18:520][296]LogSavePackage: Save=3.52ms
+[2017.02.05-06.43.18:520][296]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Floor81E0BBBB44A58031D549D486F79026BB.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset'
+[2017.02.05-06.43.18:521][296]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Floor.uasset
+[2017.02.05-06.43.35:029][912]LogSavePackage: Save=10.13ms
+[2017.02.05-06.43.35:029][912]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_Wall3B1013064F2561C417669DB579F16D69.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset'
+[2017.02.05-06.43.35:030][912]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_Wall.uasset
+[2017.02.05-06.44.10:034][460]LogSavePackage: Save=15.29ms
+[2017.02.05-06.44.10:034][460]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/01_Libya_Auto1267704164E845846FF61AC972F212C90.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Levels/01_Libya_Auto1.umap'
+[2017.02.05-06.44.10:034][460]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Levels/01_Libya_Auto1.umap
+[2017.02.05-06.44.10:045][460]LogSavePackage: Save=4.65ms
+[2017.02.05-06.44.10:045][460]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/01_Libya_BuiltData42E31268402CA792943A7CB2B44FF963.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya_BuiltData.uasset'
+[2017.02.05-06.44.10:045][460]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya_BuiltData.uasset
+[2017.02.05-06.44.10:054][460]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameContent/Levels/01_Libya' took 0.044
+[2017.02.05-06.44.10:054][460]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.044
+[2017.02.05-06.44.20:432][296]LogSavePackage: Save=9.91ms
+[2017.02.05-06.44.20:432][296]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShortE34B2F0E42C901DB10D5488BC40BA140.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.44.20:433][296]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.44.50:483][328]LogSavePackage: Save=3.59ms
+[2017.02.05-06.44.50:483][328]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort9FD8DB0E4F8234DE721D1B84B825ADFF.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.44.50:483][328]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.44.51:210][402]LogSavePackage: Save=3.67ms
+[2017.02.05-06.44.51:210][402]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort958CAA2442FD45255B02148F678AC63C.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.44.51:210][402]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.44.51:386][418]LogSavePackage: Save=3.68ms
+[2017.02.05-06.44.51:386][418]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort4834969F423E5A465116A7B00C1FACF2.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset'
+[2017.02.05-06.44.51:386][418]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallShort.uasset
+[2017.02.05-06.44.56:520][518]LogStaticMesh: Building static mesh LibyaApartment_WallShort...
+[2017.02.05-06.44.56:523][518]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_WallShort.LibyaApartment_WallShort
+[2017.02.05-06.45.03:472][ 94]LogSavePackage: Save=3.56ms
+[2017.02.05-06.45.03:472][ 94]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WindowWall163141754BC0A17C0F9CA297A3E6C7F4.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset'
+[2017.02.05-06.45.03:472][ 94]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset
+[2017.02.05-06.45.04:132][161]LogSavePackage: Save=3.84ms
+[2017.02.05-06.45.04:132][161]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WindowWallE8E1D7714D5737B62713AB965D521EC0.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset'
+[2017.02.05-06.45.04:132][161]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset
+[2017.02.05-06.45.04:389][185]LogSavePackage: Save=3.62ms
+[2017.02.05-06.45.04:389][185]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WindowWallEFF473974B336082009DE0979C0A6EAC.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset'
+[2017.02.05-06.45.04:389][185]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset
+[2017.02.05-06.45.07:235][338]LogStaticMesh: Building static mesh LibyaApartment_WindowWall...
+[2017.02.05-06.45.07:247][338]LogStaticMesh: Built static mesh [0.01s] /Game/GameContent/Architecture/LibyaApartment_WindowWall.LibyaApartment_WindowWall
+[2017.02.05-06.45.17:789][363]LogSavePackage: Save=3.75ms
+[2017.02.05-06.45.17:789][363]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSide7E9039F24B0E29337A1443A0A59E02EF.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.45.17:789][363]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.45.18:231][406]LogSavePackage: Save=3.67ms
+[2017.02.05-06.45.18:231][406]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSide5F257F074B439A74440593A9C1E8B3A5.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.45.18:231][406]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.45.18:413][426]LogSavePackage: Save=3.67ms
+[2017.02.05-06.45.18:413][426]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSideB3A5D6924999771CF8495D831A5C6D57.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.45.18:413][426]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.45.18:638][447]LogSavePackage: Save=4.22ms
+[2017.02.05-06.45.18:638][447]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSide72F0765B491AF201BF1BC5A5BBD984BC.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.45.18:638][447]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.45.19:082][493]LogSavePackage: Save=3.69ms
+[2017.02.05-06.45.19:082][493]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSideFDDA88614709F5B58FFD4C9E1B606534.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset'
+[2017.02.05-06.45.19:082][493]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WallSide.uasset
+[2017.02.05-06.45.21:446][612]LogStaticMesh: Building static mesh LibyaApartment_WallSide...
+[2017.02.05-06.45.21:449][612]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/Architecture/LibyaApartment_WallSide.LibyaApartment_WallSide
+[2017.02.05-06.45.23:846][874]MapCheck: New page: Map Check
+[2017.02.05-06.45.23:855][874]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.45.23:855][874]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.45.23:921][874]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:45:23 PM
+[2017.02.05-06.45.23:925][874]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.45.23:927][874]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.45.23:927][874]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.45.23:928][874]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.45.23:928][874]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.45.28:433][874]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.45.28:433][874]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.45.28:433][874]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.45.28:433][874]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.45.28:433][874]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.45.28:433][874]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.45.28:523][874]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.45.28:523][874]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:45:28 PM
+[2017.02.05-06.45.28:524][874]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.45.28:547][874]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 23.916ms to complete.
+[2017.02.05-06.45.28:570][874]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.45.30:996][ 53]Job is a success!
+[2017.02.05-06.45.31:311][ 55]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.02.05-06.45.31:311][ 55]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.05-06.45.31:311][ 55]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.02.05-06.45.31:311][ 55]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.05-06.45.31:311][ 55]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.05-06.45.31:311][ 55]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.05-06.45.31:404][ 55]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2017.02.05-06.45.31:404][ 55]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2017.02.05-06.45.31:421][ 55]Lightmass on DESKTOP-F8HDSMU: 2.30 sec total, 73 ms importing, 13 ms setup, 414 ms photons, 1.79 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 12.3 sec total, 7.44 sec processing.
+[2017.02.05-06.45.31:425][ 55]LogStaticLightingSystem: Illumination: 7.48 sec (261 ms encoding lightmaps, 89 ms encoding shadowmaps)
+[2017.02.05-06.45.31:425][ 55]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.45.31:425][ 55]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.45.32:438][ 55]DumpUnbuiltLightIteractions
+[2017.02.05-06.45.32:438][ 55]Lights with unbuilt interactions: 0
+[2017.02.05-06.45.32:438][ 55]
+[2017.02.05-06.45.32:438][ 55]Primitives with unbuilt interactions: 0
+[2017.02.05-06.45.32:444][ 56]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.45.32:444][ 56]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:45:32 PM
+[2017.02.05-06.45.32:616][ 56]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 172.306ms to complete.
+[2017.02.05-06.46.14:109][504]MapCheck: New page: Map Check
+[2017.02.05-06.46.14:117][504]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.46.14:117][504]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.46.14:149][504]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:46:14 PM
+[2017.02.05-06.46.14:149][504]LogStaticLightingSystem:Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
+[2017.02.05-06.46.14:164][504]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.46.14:164][504]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:46:14 PM
+[2017.02.05-06.46.14:186][504]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.777ms to complete.
+[2017.02.05-06.46.14:209][504]LogEditorBuildUtils: Build time 0:00
+[2017.02.05-06.46.32:647][702]MapCheck: New page: Map Check
+[2017.02.05-06.46.32:657][702]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.46.32:657][702]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.46.32:685][702]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:46:32 PM
+[2017.02.05-06.46.32:690][702]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.46.32:692][702]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.46.32:692][702]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.46.32:692][702]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.46.32:692][702]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.46.37:198][702]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.46.37:198][702]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.46.37:198][702]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.46.37:198][702]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.46.37:198][702]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.46.37:198][702]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.46.37:273][702]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.46.37:273][702]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:46:37 PM
+[2017.02.05-06.46.37:273][702]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.46.37:296][702]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 23.039ms to complete.
+[2017.02.05-06.46.37:318][702]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.46.39:739][893]Job is a success!
+[2017.02.05-06.46.40:070][895]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.02.05-06.46.40:070][895]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.05-06.46.40:070][895]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.05-06.46.40:070][895]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.05-06.46.40:070][895]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.02.05-06.46.40:070][895]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.05-06.46.40:165][895]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2017.02.05-06.46.40:165][895]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2017.02.05-06.46.40:182][895]Lightmass on DESKTOP-F8HDSMU: 2.32 sec total, 79 ms importing, 12 ms setup, 406 ms photons, 1.80 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 12.4 sec total, 7.43 sec processing.
+[2017.02.05-06.46.40:187][895]LogStaticLightingSystem: Illumination: 7.48 sec (284 ms encoding lightmaps, 92 ms encoding shadowmaps)
+[2017.02.05-06.46.40:187][895]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.46.40:187][895]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.46.40:202][895]DumpUnbuiltLightIteractions
+[2017.02.05-06.46.40:202][895]Lights with unbuilt interactions: 0
+[2017.02.05-06.46.40:202][895]
+[2017.02.05-06.46.40:202][895]Primitives with unbuilt interactions: 0
+[2017.02.05-06.46.40:209][896]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.46.40:209][896]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:46:40 PM
+[2017.02.05-06.46.40:233][896]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.908ms to complete.
+[2017.02.05-06.47.27:351][545]MapCheck: New page: Map Check
+[2017.02.05-06.47.27:363][545]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.47.27:363][545]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.47.27:395][545]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:47:27 PM
+[2017.02.05-06.47.27:400][545]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.47.27:401][545]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.47.27:401][545]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.47.27:402][545]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.47.27:402][545]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.47.31:909][545]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.47.31:909][545]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.47.31:909][545]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.47.31:909][545]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.47.31:909][545]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.47.31:909][545]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.47.31:985][545]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.47.31:985][545]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:47:31 PM
+[2017.02.05-06.47.32:008][545]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.219ms to complete.
+[2017.02.05-06.47.32:030][545]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.47.35:958][879]Job is a success!
+[2017.02.05-06.47.36:345][880]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.02.05-06.47.36:345][880]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.05-06.47.36:345][880]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.05-06.47.36:345][880]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.05-06.47.36:345][880]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.02.05-06.47.36:345][880]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.05-06.47.36:439][880]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2017.02.05-06.47.36:439][880]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2017.02.05-06.47.36:454][880]Lightmass on DESKTOP-F8HDSMU: 3.91 sec total, 71 ms importing, 11 ms setup, 638 ms photons, 3.18 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 22.1 sec total, 15.4 sec processing.
+[2017.02.05-06.47.36:460][880]LogStaticLightingSystem: Illumination: 9.05 sec (328 ms encoding lightmaps, 91 ms encoding shadowmaps)
+[2017.02.05-06.47.36:460][880]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.47.36:460][880]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.47.36:914][880]DumpUnbuiltLightIteractions
+[2017.02.05-06.47.36:914][880]Lights with unbuilt interactions: 0
+[2017.02.05-06.47.36:914][880]
+[2017.02.05-06.47.36:914][880]Primitives with unbuilt interactions: 0
+[2017.02.05-06.47.36:920][881]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.47.36:920][881]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:47:36 PM
+[2017.02.05-06.47.36:944][881]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.523ms to complete.
+[2017.02.05-06.48.03:717][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide2)
+[2017.02.05-06.48.05:082][205]Cmd: DELETE
+[2017.02.05-06.48.05:082][205]Cmd: ACTOR DELETE
+[2017.02.05-06.48.05:082][205]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.48.05:090][205]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.02.05-06.48.05:450][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide)
+[2017.02.05-06.48.20:814][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Wall2)
+[2017.02.05-06.48.24:170][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Wall)
+[2017.02.05-06.48.26:297][649]Cmd: DELETE
+[2017.02.05-06.48.26:298][649]Cmd: ACTOR DELETE
+[2017.02.05-06.48.26:298][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.48.26:305][649]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.05-06.48.26:614][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallShort)
+[2017.02.05-06.48.40:640][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.48.45:371][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall2)
+[2017.02.05-06.48.50:058][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide3)
+[2017.02.05-06.48.51:185][488]Cmd: DELETE
+[2017.02.05-06.48.51:185][488]Cmd: ACTOR DELETE
+[2017.02.05-06.48.51:186][488]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.48.51:193][488]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.05-06.48.51:452][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide4)
+[2017.02.05-06.48.51:551][527]Cmd: DELETE
+[2017.02.05-06.48.51:551][527]Cmd: ACTOR DELETE
+[2017.02.05-06.48.51:551][527]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.48.51:558][527]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.48.52:844][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide)
+[2017.02.05-06.49.09:688][511]MapCheck: New page: Map Check
+[2017.02.05-06.49.09:696][511]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.49.09:696][511]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.49.09:728][511]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:49:09 PM
+[2017.02.05-06.49.09:732][511]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.49.09:734][511]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.49.09:734][511]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.49.09:735][511]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.49.09:735][511]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.49.14:241][511]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.49.14:241][511]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.49.14:241][511]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.49.14:241][511]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.49.14:241][511]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.49.14:241][511]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.49.14:319][511]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.49.14:319][511]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:49:14 PM
+[2017.02.05-06.49.14:320][511]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.49.14:342][511]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 22.783ms to complete.
+[2017.02.05-06.49.14:365][511]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.49.18:145][816]Job is a success!
+[2017.02.05-06.49.18:513][818]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.02.05-06.49.18:513][818]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.05-06.49.18:513][818]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.05-06.49.18:513][818]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.02.05-06.49.18:513][818]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.05-06.49.18:513][818]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.05-06.49.18:607][818]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2017.02.05-06.49.18:607][818]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2017.02.05-06.49.18:622][818]Lightmass on DESKTOP-F8HDSMU: 3.67 sec total, 71 ms importing, 12 ms setup, 611 ms photons, 2.96 sec processing, 0 ms extra exporting [20/20 mappings]. Threads: 20.6 sec total, 13.7 sec processing.
+[2017.02.05-06.49.18:628][818]LogStaticLightingSystem: Illumination: 8.88 sec (314 ms encoding lightmaps, 91 ms encoding shadowmaps)
+[2017.02.05-06.49.18:628][818]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.49.18:628][818]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.49.19:245][818]DumpUnbuiltLightIteractions
+[2017.02.05-06.49.19:245][818]Lights with unbuilt interactions: 0
+[2017.02.05-06.49.19:245][818]
+[2017.02.05-06.49.19:245][818]Primitives with unbuilt interactions: 0
+[2017.02.05-06.49.19:251][819]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.49.19:252][819]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:49:19 PM
+[2017.02.05-06.49.19:421][819]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 169.699ms to complete.
+[2017.02.05-06.49.30:991][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WindowWall3)
+[2017.02.05-06.49.41:877][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor6)
+[2017.02.05-06.49.45:062][818]Cmd: DELETE
+[2017.02.05-06.49.45:062][818]Cmd: ACTOR DELETE
+[2017.02.05-06.49.45:062][818]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.49.45:068][818]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.49.45:535][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor5)
+[2017.02.05-06.49.45:871][910]Cmd: DELETE
+[2017.02.05-06.49.45:871][910]Cmd: ACTOR DELETE
+[2017.02.05-06.49.45:872][910]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.49.45:878][910]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.49.46:428][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor)
+[2017.02.05-06.49.47:044][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor2)
+[2017.02.05-06.49.47:527][ 99]Cmd: DELETE
+[2017.02.05-06.49.47:527][ 99]Cmd: ACTOR DELETE
+[2017.02.05-06.49.47:527][ 99]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.49.47:534][ 99]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.49.47:975][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor3)
+[2017.02.05-06.49.48:588][221]Cmd: DELETE
+[2017.02.05-06.49.48:588][221]Cmd: ACTOR DELETE
+[2017.02.05-06.49.48:588][221]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.49.48:594][221]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.49.48:949][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor4)
+[2017.02.05-06.49.49:228][292]Cmd: DELETE
+[2017.02.05-06.49.49:228][292]Cmd: ACTOR DELETE
+[2017.02.05-06.49.49:229][292]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.49.49:235][292]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.49.49:634][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor)
+[2017.02.05-06.50.19:892][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor7)
+[2017.02.05-06.50.20:695][912]Cmd: DELETE
+[2017.02.05-06.50.20:695][912]Cmd: ACTOR DELETE
+[2017.02.05-06.50.20:695][912]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.50.20:701][912]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.50.21:082][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor9)
+[2017.02.05-06.50.21:496][  2]Cmd: DELETE
+[2017.02.05-06.50.21:496][  2]Cmd: ACTOR DELETE
+[2017.02.05-06.50.21:496][  2]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.50.21:503][  2]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.05-06.50.21:851][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor10)
+[2017.02.05-06.50.22:131][ 72]Cmd: DELETE
+[2017.02.05-06.50.22:131][ 72]Cmd: ACTOR DELETE
+[2017.02.05-06.50.22:131][ 72]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.50.22:137][ 72]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.50.22:451][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor8)
+[2017.02.05-06.50.22:637][126]Cmd: DELETE
+[2017.02.05-06.50.22:637][126]Cmd: ACTOR DELETE
+[2017.02.05-06.50.22:637][126]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.50.22:643][126]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.50.23:082][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor12)
+[2017.02.05-06.50.23:373][208]Cmd: DELETE
+[2017.02.05-06.50.23:374][208]Cmd: ACTOR DELETE
+[2017.02.05-06.50.23:374][208]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.50.23:380][208]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.50.23:693][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor11)
+[2017.02.05-06.50.23:829][257]Cmd: DELETE
+[2017.02.05-06.50.23:829][257]Cmd: ACTOR DELETE
+[2017.02.05-06.50.23:829][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.50.23:835][257]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.50.24:904][385]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LibyaApartment_Floor)
+[2017.02.05-06.50.38:929][997]MapCheck: New page: Map Check
+[2017.02.05-06.50.38:942][997]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.50.38:942][997]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.50.38:973][997]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:50:38 PM
+[2017.02.05-06.50.38:978][997]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.50.38:979][997]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.50.38:979][997]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.50.38:980][997]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.50.38:980][997]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.50.43:486][997]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.50.43:486][997]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.50.43:486][997]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.50.43:486][997]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.50.43:486][997]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.50.43:486][997]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.50.43:562][997]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.50.43:562][997]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:50:43 PM
+[2017.02.05-06.50.43:563][997]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.50.43:586][997]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 23.449ms to complete.
+[2017.02.05-06.50.43:608][997]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.50.45:684][164]Job is a success!
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2017.02.05-06.50.45:891][165]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2017.02.05-06.50.45:910][165]Lightmass on DESKTOP-F8HDSMU: 1.82 sec total, 79 ms importing, 14 ms setup, 379 ms photons, 1.33 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 9.16 sec total, 5.11 sec processing.
+[2017.02.05-06.50.45:913][165]LogStaticLightingSystem: Illumination: 6.92 sec (136 ms encoding lightmaps, 22 ms encoding shadowmaps)
+[2017.02.05-06.50.45:913][165]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.50.45:913][165]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.50.46:491][165]DumpUnbuiltLightIteractions
+[2017.02.05-06.50.46:491][165]Lights with unbuilt interactions: 0
+[2017.02.05-06.50.46:491][165]
+[2017.02.05-06.50.46:491][165]Primitives with unbuilt interactions: 0
+[2017.02.05-06.50.46:518][166]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.50.46:518][166]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:50:46 PM
+[2017.02.05-06.50.46:541][166]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.305ms to complete.
+[2017.02.05-06.51.24:469][312]LogSavePackage: Save=10.10ms
+[2017.02.05-06.51.24:469][312]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WindowWall9474B0A14AD32484876313877ED2C5ED.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset'
+[2017.02.05-06.51.24:470][312]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset
+[2017.02.05-06.51.29:195][796]LogSavePackage: Save=3.96ms
+[2017.02.05-06.51.29:195][796]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WindowWall8042A288476B28C21F727E9A5CA58F3C.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset'
+[2017.02.05-06.51.29:195][796]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Architecture/LibyaApartment_WindowWall.uasset
+[2017.02.05-06.51.32:977][206]MapCheck: New page: Map Check
+[2017.02.05-06.51.32:989][206]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.51.32:989][206]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.51.33:032][206]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:51:33 PM
+[2017.02.05-06.51.33:037][206]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.51.33:038][206]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.51.33:038][206]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.51.33:039][206]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.51.33:039][206]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.51.37:545][206]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.51.37:545][206]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.51.37:545][206]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.51.37:545][206]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.51.37:545][206]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.51.37:545][206]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.51.37:620][206]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.51.37:620][206]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:51:37 PM
+[2017.02.05-06.51.37:643][206]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.772ms to complete.
+[2017.02.05-06.51.37:665][206]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.51.39:796][350]Job is a success!
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8)
+[2017.02.05-06.51.39:983][352]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8)
+[2017.02.05-06.51.39:997][352]Lightmass on DESKTOP-F8HDSMU: 1.72 sec total, 77 ms importing, 11 ms setup, 383 ms photons, 1.23 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 8.50 sec total, 4.92 sec processing.
+[2017.02.05-06.51.40:001][352]LogStaticLightingSystem: Illumination: 6.95 sec (122 ms encoding lightmaps, 23 ms encoding shadowmaps)
+[2017.02.05-06.51.40:001][352]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.51.40:001][352]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.51.40:547][352]DumpUnbuiltLightIteractions
+[2017.02.05-06.51.40:547][352]Lights with unbuilt interactions: 0
+[2017.02.05-06.51.40:547][352]
+[2017.02.05-06.51.40:547][352]Primitives with unbuilt interactions: 0
+[2017.02.05-06.51.40:645][353]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.51.40:645][353]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:51:40 PM
+[2017.02.05-06.51.40:669][353]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.149ms to complete.
+[2017.02.05-06.52.11:899][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor)
+[2017.02.05-06.54.16:916][451]LogSavePackage: Save=12.81ms
+[2017.02.05-06.54.16:917][451]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/01_Libya_Auto22C9C3EC542D738C68C5D99B4E57C82AD.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Levels/01_Libya_Auto2.umap'
+[2017.02.05-06.54.16:917][451]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Levels/01_Libya_Auto2.umap
+[2017.02.05-06.54.16:929][451]LogSavePackage: Save=4.59ms
+[2017.02.05-06.54.16:929][451]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/01_Libya_BuiltData4DC09F97454BA8386C1FE2971829A550.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya_BuiltData.uasset'
+[2017.02.05-06.54.16:930][451]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya_BuiltData.uasset
+[2017.02.05-06.54.16:931][451]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameContent/Levels/01_Libya' took 0.037
+[2017.02.05-06.54.16:931][451]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
+[2017.02.05-06.54.16:932][451]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameContent/Architecture/LibyaApartment_WallShort] ([1] browsable assets)...
+[2017.02.05-06.54.16:956][451]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/GameContent/Architecture/LibyaApartment_WallShort.LibyaApartment_WallShort]
+[2017.02.05-06.54.16:956][451]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameContent/Architecture/LibyaApartment_WallShort]
+[2017.02.05-06.54.16:970][451]LogSavePackage: Save=9.83ms
+[2017.02.05-06.54.16:970][451]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallShort_Auto2A2F6D0AA4E459B72E24229BC683FC173.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Architecture/LibyaApartment_WallShort_Auto2.uasset'
+[2017.02.05-06.54.16:970][451]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Architecture/LibyaApartment_WallShort_Auto2.uasset
+[2017.02.05-06.54.16:970][451]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameContent/Architecture/LibyaApartment_WallSide] ([1] browsable assets)...
+[2017.02.05-06.54.16:992][451]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/GameContent/Architecture/LibyaApartment_WallSide.LibyaApartment_WallSide]
+[2017.02.05-06.54.16:992][451]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameContent/Architecture/LibyaApartment_WallSide]
+[2017.02.05-06.54.17:005][451]LogSavePackage: Save=9.78ms
+[2017.02.05-06.54.17:006][451]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/LibyaApartment_WallSide_Auto2237D53CE424EB759501D20A4279C230A.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Architecture/LibyaApartment_WallSide_Auto2.uasset'
+[2017.02.05-06.54.17:006][451]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Autosaves/Game/GameContent/Architecture/LibyaApartment_WallSide_Auto2.uasset
+[2017.02.05-06.54.17:006][451]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.02.05-06.56.11:407][267]Cmd: DELETE
+[2017.02.05-06.56.11:407][267]Cmd: ACTOR DELETE
+[2017.02.05-06.56.11:408][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.56.11:423][267]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.02.05-06.56.12:170][354]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LibyaApartment_Floor2)
+[2017.02.05-06.56.12:808][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor2)
+[2017.02.05-06.56.13:254][472]Cmd: DELETE
+[2017.02.05-06.56.13:254][472]Cmd: ACTOR DELETE
+[2017.02.05-06.56.13:254][472]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.56.13:269][472]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.02.05-06.56.18:167][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide)
+[2017.02.05-06.56.19:342][144]Cmd: DELETE
+[2017.02.05-06.56.19:342][144]Cmd: ACTOR DELETE
+[2017.02.05-06.56.19:343][144]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.56.19:349][144]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.05-06.56.20:729][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_WallSide2)
+[2017.02.05-06.56.21:819][421]Cmd: DELETE
+[2017.02.05-06.56.21:819][421]Cmd: ACTOR DELETE
+[2017.02.05-06.56.21:819][421]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.56.21:833][421]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.02.05-06.56.32:653][630]LogActorFactory: Actor Factory created LibyaApartment_WallSide
+[2017.02.05-06.56.39:076][399]LogActorFactory: Actor Factory created LibyaApartment_WallSide
+[2017.02.05-06.56.40:190][522]Cmd: DELETE
+[2017.02.05-06.56.40:190][522]Cmd: ACTOR DELETE
+[2017.02.05-06.56.40:191][522]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.05-06.56.40:206][522]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.02.05-06.56.41:992][699]LogActorFactory: Actor Factory created LibyaApartment_Floor
+[2017.02.05-06.56.42:400][746]LogActorFactory: Actor Factory created LibyaApartment_Floor
+[2017.02.05-06.57.14:329][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LibyaApartment_Floor3)
+[2017.02.05-06.57.42:245][971]MapCheck: New page: Map Check
+[2017.02.05-06.57.42:252][971]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.05-06.57.42:252][971]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.05-06.57.42:301][971]LightingResults: New page: Lighting Build - Feb 4, 2017, 8:57:42 PM
+[2017.02.05-06.57.42:308][971]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.05-06.57.42:309][971]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.05-06.57.42:309][971]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.05-06.57.42:310][971]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.05-06.57.42:310][971]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2017.02.05-06.57.46:818][971]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.05-06.57.46:818][971]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.05-06.57.46:818][971]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.05-06.57.46:818][971]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.05-06.57.46:818][971]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.05-06.57.46:818][971]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.05-06.57.46:896][971]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.05-06.57.46:896][971]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:57:46 PM
+[2017.02.05-06.57.46:896][971]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.02.05-06.57.46:920][971]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 23.721ms to complete.
+[2017.02.05-06.57.46:943][971]LogEditorBuildUtils: Build time 0:04
+[2017.02.05-06.57.50:362][192]Job is a success!
+[2017.02.05-06.57.50:731][194]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.05-06.57.50:731][194]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.05-06.57.50:731][194]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.02.05-06.57.50:731][194]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.05-06.57.50:731][194]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.05-06.57.50:731][194]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.02.05-06.57.50:829][194]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8)
+[2017.02.05-06.57.50:829][194]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8)
+[2017.02.05-06.57.50:848][194]Lightmass on DESKTOP-F8HDSMU: 3.32 sec total, 76 ms importing, 11 ms setup, 543 ms photons, 2.68 sec processing, 0 ms extra exporting [18/18 mappings]. Threads: 18.6 sec total, 11.6 sec processing.
+[2017.02.05-06.57.50:851][194]LogStaticLightingSystem: Illumination: 8.53 sec (306 ms encoding lightmaps, 93 ms encoding shadowmaps)
+[2017.02.05-06.57.50:851][194]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.05-06.57.50:851][194]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.05-06.57.51:820][194]DumpUnbuiltLightIteractions
+[2017.02.05-06.57.51:820][194]Lights with unbuilt interactions: 0
+[2017.02.05-06.57.51:820][194]
+[2017.02.05-06.57.51:820][194]Primitives with unbuilt interactions: 0
+[2017.02.05-06.57.51:826][195]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.05-06.57.51:826][195]MapCheck: New page: 01_Libya - Feb 4, 2017, 8:57:51 PM
+[2017.02.05-06.57.51:995][195]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.859ms to complete.
+[2017.02.05-06.58.02:126][257]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.02.05-06.58.39:708][829]LogStaticMesh: Building static mesh LibyaApartment_WindowWall...
+[2017.02.05-06.58.39:728][829]LogStaticMesh: Built static mesh [0.02s] /Game/GameContent/Architecture/LibyaApartment_WindowWall.LibyaApartment_WindowWall
+[2017.02.05-06.58.40:020][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_55' or package '/Engine/Transient'.
+[2017.02.05-06.58.44:181][246]LogSavePackage: Save=13.89ms
+[2017.02.05-06.58.44:181][246]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/01_Libya1DF409BD4C7B1549512C6A9932937413.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya.umap'
+[2017.02.05-06.58.44:183][246]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya.umap
+[2017.02.05-06.58.44:270][246]LogSavePackage: Save=70.12ms
+[2017.02.05-06.58.44:270][246]LogSavePackage: Moving 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/01_Libya_BuiltData2188BAB64F94450FF47EA2A4347AEE32.tmp' to 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya_BuiltData.uasset'
+[2017.02.05-06.58.44:272][246]LogSavePackage:Display: Finished SavePackage E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/GameContent/Levels/01_Libya_BuiltData.uasset
+[2017.02.05-06.58.55:016][505]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.05-06.58.55:201][506]Cmd: QUIT_EDITOR
+[2017.02.05-06.58.55:245][506]LogExit: Preparing to exit.
+[2017.02.05-06.58.56:041][506]LogExit: Editor shut down
+[2017.02.05-06.58.56:041][506]LogExit: Transaction tracking system shut down
+[2017.02.05-06.58.56:088][506]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.05-06.58.56:088][506]LogExit: Object subsystem successfully closed.
+[2017.02.05-06.58.56:114][506]LogD3D11RHI: Shutdown
+[2017.02.05-06.58.56:114][506]LogD3D11RHI: CleanupD3DDevice
+[2017.02.05-06.58.56:283][506]LogD3D11RHI:Error: Crashed freeing up the D3D11 device.
+[2017.02.05-06.58.56:283][506]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.05-06.58.56:288][506]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.05-06.58.56:288][506]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5878EC7F-4FA8-D422-7432-FDB7DE79513D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=e65b5f164ed60435ed23c1abc288594b%7C65dde46ed753425787bec89ac91d3863%7Cd4fe55fd-1d89-4165-aaf7-de036d843d8a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (243)
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (242)
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.02.05-06.58.56:317][506]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.02.05-06.58.56:317][506]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.14/FeaturePacks/' was aborted.
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.02.05-06.58.56:318][506]LogDirectoryWatcher: A directory notification for 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/Collections/' was aborted.
+[2017.02.05-06.58.56:318][506]LogDirectoryWatcher: A directory notification for 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/Developers/TheSittingHun/Collections/' was aborted.
+[2017.02.05-06.58.56:318][506]LogDirectoryWatcher: A directory notification for 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Saved/Collections/' was aborted.
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.02.05-06.58.56:318][506]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.02.05-06.58.56:319][506]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.02.05-06.58.56:351][506]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.02.05-06.58.56:394][506]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.02.05-06.58.56:426][506]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.02.05-06.58.56:427][506]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.02.05-06.58.56:427][506]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.02.05-06.58.56:427][506]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.02.05-06.58.56:428][506]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.02.05-06.58.56:428][506]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.02.05-06.58.56:529][506]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.02.05-06.58.56:629][506]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.02.05-06.58.56:630][506]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.02.05-06.58.56:630][506]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.02.05-06.58.56:630][506]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.02.05-06.58.56:630][506]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.02.05-06.58.56:630][506]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.02.05-06.58.56:630][506]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.02.05-06.58.56:630][506]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.05-06.58.56:631][506]LogDirectoryWatcher: A directory notification for 'E:/ARefugeesShoulders/20170205_ImpossibleCourage/Programming/ImpossibleCourage_v1/Content/' was aborted.
+[2017.02.05-06.58.56:631][506]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.05-06.58.56:631][506]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.02.05-06.58.56:764][506]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.02.05-06.58.56:775][506]LogDerivedDataCache: Shutdown
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.05-06.58.56:775][506]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.05-06.58.56:775][506]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.02.05-06.58.56:776][506]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.05-06.58.56:776][506]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.05-06.58.56:776][506]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.05-06.58.56:776][506]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.05-06.58.56:776][506]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.05-06.58.56:776][506]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.05-06.58.56:777][506]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.05-06.58.56:779][506]LogExit: Exiting.
+[2017.02.05-06.58.56:786][506]Log file closed, 02/05/17 01:58:56
