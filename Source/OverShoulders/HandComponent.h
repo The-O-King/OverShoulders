@@ -17,12 +17,15 @@ public:
 
 	UHandComponent();
 
+	virtual void TickComponent(float DeltaSeconds, enum ELevelTick TickType, FActorComponentTickFunction * ThisTickFunction) override;
+
 	UFUNCTION()
 	void OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	UFUNCTION()
 	void OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool vibrate;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class AInteractActor* IsBusy;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
