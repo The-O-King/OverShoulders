@@ -29,9 +29,9 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
 		void TriggerActionInputReleased();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
-		void GripActionInputPressed(); // If Nearby = PickupActor(if IsBusy != NULL (IsBusy = Nearby))
+		void GripActionInputPressed();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
-		void GripActionInputReleased(); // Nearby = NULL 
+		void GripActionInputReleased();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
 		void TrackpadActionInputPressed();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")

@@ -72,4 +72,7 @@ void AVR_Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 
+	InputComponent->BindAction("GripLeft", IE_Pressed, Left, &UHandComponent::GripActionInputPressed);
+	InputComponent->BindAction("GripRight", IE_Pressed, Right, &UHandComponent::GripActionInputPressed);
+
 }

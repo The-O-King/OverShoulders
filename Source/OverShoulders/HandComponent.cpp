@@ -21,27 +21,90 @@ UHandComponent::UHandComponent(){
 }
 
 void UHandComponent::OnHandOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) {
+	UE_LOG(LogTemp, Warning, TEXT("%s Overlap Begin with %s"), *OverlappedComp->GetName(), *OtherActor->GetName());
 	AInteractActor* hit = Cast<AInteractActor>(OtherActor);
 	if (hit != NULL) {
-		UE_LOG(LogTemp, Warning, TEXT("Overlap Begin"));
 		Nearby = hit;
 	}
 }
 
 void UHandComponent::OnHandOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex) {
+	UE_LOG(LogTemp, Warning, TEXT("%s Overlap End with %s"), *OverlappedComp->GetName(), *OtherActor->GetName());
 	AInteractActor* hit = Cast<AInteractActor>(OtherActor);
 	if (hit != NULL) {
 		if (hit == Nearby) {
-			UE_LOG(LogTemp, Warning, TEXT("Overlap End"));
 			Nearby = NULL;
 		}
 	}
 }
 
-void UHandComponent::TriggerAxisInput_Implementation(float AxisValue){}
-void UHandComponent::TriggerActionInputPressed_Implementation() {}
-void UHandComponent::TriggerActionInputReleased_Implementation() {}
-void UHandComponent::GripActionInputPressed_Implementation() {}
-void UHandComponent::GripActionInputReleased_Implementation() {}
-void UHandComponent::TrackpadActionInputPressed_Implementation() {}
-void UHandComponent::TrackpadActionInputReleased_Implementation() {}
+void UHandComponent::TriggerAxisInput_Implementation(float AxisValue){
+	if (IsBusy != NULL) {
+		IsBusy->InteractTriggerAxis(AxisValue);
+	}
+	else {
+		//Do Animation??
+	}
+}
+void UHandComponent::TriggerActionInputPressed_Implementation() {
+	if (IsBusy != NULL) {
+		IsBusy->InteractTriggerActionPressed();
+	}
+	else {
+		//Do Animation??
+	}
+}
+void UHandComponent::TriggerActionInputReleased_Implementation() {
+	if (IsBusy != NULL) {
+		IsBusy->InteractTriggerActionReleased();
+	}
+	else {
+		//Do Animation??
+	}
+}
+void UHandComponent::GripActionInputPressed_Implementation() {
+	UE_LOG(LogTemp, Warning, TEXT("%s Grip Pressed"), *this->GetName());
+	//if (IsBusy != NULL) {
+	//	IsBusy->InteractGripActionPressed();
+	//}
+	//else {
+		if (Nearby != NULL) {
+			IsBusy = Nearby;
+			IsBusy->Shape->SetSimulatePhysics(false);
+			IsBusy->AttachToComponent(HoldLocation, FAttachmentTransformRules::KeepWorldTransform);
+			IsBusy->IsInteracted = true;
+			Nearby = NULL;
+		}
+		else if (IsBusy != NULL) {
+			IsBusy->IsInteracted = false;
+			IsBusy->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+			IsBusy->Shape->SetSimulatePhysics(true);
+			IsBusy = NULL;
+		}
+		//Do Animation??
+	//}
+}
+void UHandComponent::GripActionInputReleased_Implementation() {
+	if (IsBusy != NULL) {
+		IsBusy->InteractGripActionReleased();
+	}
+	else {
+		//Do Animation??
+	}
+}
+void UHandComponent::TrackpadActionInputPressed_Implementation() {
+	if (IsBusy != NULL) {
+		IsBusy->InteractTrackpadActionPressed();
+	}
+	else {
+		//Do Animation??
+	}
+}
+void UHandComponent::TrackpadActionInputReleased_Implementation() {
+	if (IsBusy != NULL) {
+		IsBusy->InteractTrackpadActionReleased();
+	}
+	else {
+		//Do Animation??
+	}
+}

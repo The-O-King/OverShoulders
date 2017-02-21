@@ -10,16 +10,12 @@ AInteractActor::AInteractActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Create Default Root Object
-	DefaultRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-
 	// Create Static Mesh of Object
 	Shape = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shape"));
-	Shape->SetupAttachment(DefaultRoot);
 
 	//Create Hitbox of the Object
 	Hitbox = CreateDefaultSubobject<UBoxComponent>(TEXT("Hitbox"));
-	Hitbox->SetupAttachment(DefaultRoot);
+	Hitbox->SetupAttachment(Shape);
 }
 
 // Called when the game starts or when spawned
@@ -42,4 +38,4 @@ void AInteractActor::InteractTriggerActionReleased_Implementation() {}
 void AInteractActor::InteractGripActionPressed_Implementation() {}
 void AInteractActor::InteractGripActionReleased_Implementation() {}
 void AInteractActor::InteractTrackpadActionPressed_Implementation() {}
-void AInteractActor::InteractTrackpardActionReleased_Implementation() {}
+void AInteractActor::InteractTrackpadActionReleased_Implementation() {}

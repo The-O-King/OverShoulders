@@ -33,10 +33,8 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
 		void InteractTrackpadActionPressed();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
-		void InteractTrackpardActionReleased();
+		void InteractTrackpadActionReleased();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USceneComponent* DefaultRoot;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* Shape;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
