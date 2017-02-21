@@ -20,11 +20,27 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaSeconds) override;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractTriggerAxis(float AxisValue);
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractTriggerActionPressed();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractTriggerActionReleased();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractGripActionPressed();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractGripActionReleased();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractTrackpadActionPressed();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void InteractTrackpardActionReleased();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* DefaultRoot;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* Shape;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UBoxComponent* Hitbox;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool IsInteracted;
 

@@ -17,6 +17,7 @@ AVR_Pawn::AVR_Pawn()
 
 	// Create Default Root Object
 	DefaultRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	
 
 	// Create the Body of the player in the space
 	Body = CreateDefaultSubobject<UCapsuleComponent>(TEXT("BODY"));
@@ -35,7 +36,7 @@ AVR_Pawn::AVR_Pawn()
 	Left->SetupAttachment(Container);
 	Left->RegisterComponent();
 	Left->Hand = EControllerHand::Left;
-	Left->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/VR_Controller"), NULL, LOAD_None, NULL));
+	Left->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/Meshes/VR_Controller"), NULL, LOAD_None, NULL));
 	Left->Mesh->Rename(TEXT("Left Mesh"));
 	Left->HoldLocation->Rename(TEXT("Left Hold Loc"));
 
@@ -43,7 +44,7 @@ AVR_Pawn::AVR_Pawn()
 	Right->SetupAttachment(Container);
 	Right->RegisterComponent();
 	Right->Hand = EControllerHand::Right;
-	Right->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/VR_Controller"), NULL, LOAD_None, NULL));
+	Right->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/Meshes/VR_Controller"), NULL, LOAD_None, NULL));
 	Right->Mesh->Rename(TEXT("Right Mesh"));
 	Right->HoldLocation->Rename(TEXT("Right Hold Loc"));
 

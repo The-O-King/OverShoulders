@@ -25,7 +25,6 @@ void UHandComponent::OnHandOverlapBegin(UPrimitiveComponent * OverlappedComp, AA
 	if (hit != NULL) {
 		UE_LOG(LogTemp, Warning, TEXT("Overlap Begin"));
 		Nearby = hit;
-		hit->Shape->SetSimulatePhysics(true);
 	}
 }
 
@@ -38,3 +37,11 @@ void UHandComponent::OnHandOverlapEnd(UPrimitiveComponent * OverlappedComp, AAct
 		}
 	}
 }
+
+void UHandComponent::TriggerAxisInput_Implementation(float AxisValue){}
+void UHandComponent::TriggerActionInputPressed_Implementation() {}
+void UHandComponent::TriggerActionInputReleased_Implementation() {}
+void UHandComponent::GripActionInputPressed_Implementation() {}
+void UHandComponent::GripActionInputReleased_Implementation() {}
+void UHandComponent::TrackpadActionInputPressed_Implementation() {}
+void UHandComponent::TrackpadActionInputReleased_Implementation() {}

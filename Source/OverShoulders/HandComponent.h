@@ -22,14 +22,29 @@ public:
 	UFUNCTION()
 	void OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="Controls")
+		void TriggerAxisInput(float AxisValue);
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void TriggerActionInputPressed();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void TriggerActionInputReleased();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void GripActionInputPressed(); // If Nearby = PickupActor(if IsBusy != NULL (IsBusy = Nearby))
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void GripActionInputReleased(); // Nearby = NULL 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void TrackpadActionInputPressed();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void TrackpadActionInputReleased();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class AInteractActor* IsBusy;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class AInteractActor* Nearby;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* Mesh;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UArrowComponent* HoldLocation;
 
 };
