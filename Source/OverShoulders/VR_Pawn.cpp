@@ -74,5 +74,6 @@ void AVR_Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 
 	InputComponent->BindAction("GripLeft", IE_Pressed, Left, &UHandComponent::GripActionInputPressed);
 	InputComponent->BindAction("GripRight", IE_Pressed, Right, &UHandComponent::GripActionInputPressed);
-
+	InputComponent->BindAction("TriggerLeft", IE_Pressed, Left, &UHandComponent::TriggerActionInputPressed);
+	InputComponent->BindAction("TriggerRight", IE_Pressed, Right, &UHandComponent::TriggerActionInputPressed);
 }

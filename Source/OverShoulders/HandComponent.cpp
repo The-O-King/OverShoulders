@@ -47,6 +47,7 @@ void UHandComponent::TriggerAxisInput_Implementation(float AxisValue){
 	}
 }
 void UHandComponent::TriggerActionInputPressed_Implementation() {
+	UE_LOG(LogTemp, Warning, TEXT("%s Trigger Pressed"), *this->GetName());
 	if (IsBusy != NULL) {
 		IsBusy->InteractTriggerActionPressed();
 	}
