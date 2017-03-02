@@ -34,8 +34,12 @@ public:
 		UCameraComponent* HMD;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UHandComponent* Left;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		USkeletalMeshComponent* MeshL;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UHandComponent* Right;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		USkeletalMeshComponent* MeshR;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class USteamVRChaperoneComponent* SteamVR;

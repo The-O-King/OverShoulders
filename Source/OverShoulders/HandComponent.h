@@ -42,9 +42,4 @@ public:
 		class AInteractActor* IsBusy;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class AInteractActor* Nearby;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UStaticMeshComponent* Mesh;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UArrowComponent* HoldLocation;
-
 };

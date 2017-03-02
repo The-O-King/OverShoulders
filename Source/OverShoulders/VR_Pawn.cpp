@@ -36,17 +36,15 @@ AVR_Pawn::AVR_Pawn()
 	Left->SetupAttachment(Container);
 	Left->RegisterComponent();
 	Left->Hand = EControllerHand::Left;
-	Left->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/Meshes/VR_Controller"), NULL, LOAD_None, NULL));
-	Left->Mesh->Rename(TEXT("Left Mesh"));
-	Left->HoldLocation->Rename(TEXT("Left Hold Loc"));
+	MeshL = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshL"));
+	MeshL->SetupAttachment(Left);
 
 	Right = CreateDefaultSubobject<UHandComponent>(TEXT("Right"));
 	Right->SetupAttachment(Container);
 	Right->RegisterComponent();
 	Right->Hand = EControllerHand::Right;
-	Right->Mesh->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Game/Meshes/VR_Controller"), NULL, LOAD_None, NULL));
-	Right->Mesh->Rename(TEXT("Right Mesh"));
-	Right->HoldLocation->Rename(TEXT("Right Hold Loc"));
+	MeshR = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshR"));
+	MeshR->SetupAttachment(Right);
 
 	// Create SteamVR Chaperone
 	SteamVR = CreateDefaultSubobject<USteamVRChaperoneComponent>(TEXT("SteamVRChaperoneComponent"));
