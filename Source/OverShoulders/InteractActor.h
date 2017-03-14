@@ -42,11 +42,11 @@ public:
 		void InteractTrackpadActionReleased();
 	virtual void InteractTrackpadActionReleased_Implementation();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* Shape;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UBoxComponent* Hitbox;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		bool IsInteracted;
 
 };

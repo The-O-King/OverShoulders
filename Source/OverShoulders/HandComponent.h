@@ -38,8 +38,8 @@ public:
 		void TrackpadActionInputReleased();
 
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class AInteractActor* IsBusy;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class AInteractActor* Nearby;
 };
