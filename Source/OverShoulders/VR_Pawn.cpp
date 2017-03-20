@@ -38,8 +38,8 @@ AVR_Pawn::AVR_Pawn()
 	Left->Hand = EControllerHand::Left;
 	MeshL = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshL"));
 	MeshL->SetupAttachment(Left);
-	//MeshL->OnComponentBeginOverlap.AddDynamic(MeshL, &UHandComponent::OnHandOverlapBegin);
-	//MeshL->OnComponentEndOverlap.AddDynamic(MeshL, &UHandComponent::OnHandOverlapEnd);
+	MeshL->OnComponentBeginOverlap.AddDynamic(Left, &UHandComponent::OnHandOverlapBegin);
+	MeshL->OnComponentEndOverlap.AddDynamic(Left, &UHandComponent::OnHandOverlapEnd);
 
 	Right = CreateDefaultSubobject<UHandComponent>(TEXT("Right"));
 	Right->SetupAttachment(Container);
@@ -47,8 +47,8 @@ AVR_Pawn::AVR_Pawn()
 	Right->Hand = EControllerHand::Right;
 	MeshR = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshR"));
 	MeshR->SetupAttachment(Right);
-	//MeshR->OnComponentBeginOverlap.AddDynamic(MeshL, &UHandComponent::OnHandOverlapBegin);
-	//MeshR->OnComponentEndOverlap.AddDynamic(MeshL, &UHandComponent::OnHandOverlapEnd);
+	MeshR->OnComponentBeginOverlap.AddDynamic(Right, &UHandComponent::OnHandOverlapBegin);
+	MeshR->OnComponentEndOverlap.AddDynamic(Right, &UHandComponent::OnHandOverlapEnd);
 
 	// Create SteamVR Chaperone
 	SteamVR = CreateDefaultSubobject<USteamVRChaperoneComponent>(TEXT("SteamVRChaperoneComponent"));
