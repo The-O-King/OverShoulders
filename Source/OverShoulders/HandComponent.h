@@ -21,6 +21,8 @@ public:
 	void OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	UFUNCTION()
 	void OnHandOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	UFUNCTION()
+		void ClearHands();
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="Controls")
 		void TriggerAxisInput(float AxisValue);

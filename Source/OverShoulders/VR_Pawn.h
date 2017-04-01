@@ -26,17 +26,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* DefaultRoot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UCapsuleComponent* Body;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		USceneComponent* Container;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UCameraComponent* HMD;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class UHandComponent* Left;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		USkeletalMeshComponent* MeshL;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class UHandComponent* Right;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		USkeletalMeshComponent* MeshR;

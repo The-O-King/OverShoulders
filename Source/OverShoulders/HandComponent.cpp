@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "OverShoulders.h"
+#include "VR_Pawn.h"
 #include "InteractActor.h"
 #include "HandComponent.h"
 
@@ -26,6 +27,12 @@ void UHandComponent::OnHandOverlapEnd(UPrimitiveComponent * OverlappedComp, AAct
 			Nearby = NULL;
 		}
 	}
+}
+
+void UHandComponent::ClearHands() {
+	AVR_Pawn* pl = Cast<AVR_Pawn>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	pl->Left->IsBusy = NULL;
+	pl->Right->IsBusy = NULL;
 }
 
 void UHandComponent::TriggerAxisInput_Implementation(float AxisValue){
@@ -60,6 +67,7 @@ void UHandComponent::GripActionInputPressed_Implementation() {
 	//}
 	//else {
 		if (Nearby != NULL) {
+			ClearHands();
 			IsBusy = Nearby;
 			IsBusy->Shape->SetSimulatePhysics(false);
 			IsBusy->AttachToComponent(GetChildComponent(0), FAttachmentTransformRules::KeepWorldTransform);
