@@ -17,6 +17,8 @@ public:
 
 	UHandComponent();
 
+	void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
+	
 	UFUNCTION()
 	void OnHandOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	UFUNCTION()
@@ -44,4 +46,8 @@ public:
 		class AInteractActor* IsBusy;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class AInteractActor* Nearby;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		class ADecisionInteractActor* PointedTo;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool isPointing;
 };

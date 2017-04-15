@@ -29,15 +29,18 @@ public:
 
 	UFUNCTION()
 		void OnOverlapWithHandBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+		void IsSelected();
+	UFUNCTION()
+		void DecisionTime();
 
-	//All of these functions are already labeled as BlueprintsNativeEvents in Parent Class
-	virtual void InteractTriggerAxis_Implementation(float AxisValue) override;
-	virtual void InteractTriggerActionPressed_Implementation() override;
-	virtual void InteractTriggerActionReleased_Implementation() override;
-	virtual void InteractGripActionPressed_Implementation() override;
-	virtual void InteractGripActionReleased_Implementation() override;
-	virtual void InteractTrackpadActionPressed_Implementation() override;
-	virtual void InteractTrackpadActionReleased_Implementation() override;
+	//void InteractTriggerAxis_Implementation(float AxisValue);
+	void InteractTriggerActionPressed_Implementation();
+	//void InteractTriggerActionReleased_Implementation();
+	//void InteractGripActionPressed_Implementation();
+	//void InteractGripActionReleased_Implementation();
+	//void InteractTrackpadActionPressed_Implementation();
+	//void InteractTrackpadActionReleased_Implementation();
 	
 	
 };

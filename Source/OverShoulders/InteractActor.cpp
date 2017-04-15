@@ -16,6 +16,8 @@ AInteractActor::AInteractActor()
 	//Create Hitbox of the Object
 	Hitbox = CreateDefaultSubobject<UBoxComponent>(TEXT("Hitbox"));
 	Hitbox->SetupAttachment(Shape);
+
+	isPickupable = false;
 }
 
 // Called when the game starts or when spawned
@@ -31,11 +33,3 @@ void AInteractActor::Tick( float DeltaTime )
 	Super::Tick( DeltaTime );
 
 }
-
-void AInteractActor::InteractTriggerAxis_Implementation(float AxisValue) {}
-void AInteractActor::InteractTriggerActionPressed_Implementation() {}
-void AInteractActor::InteractTriggerActionReleased_Implementation() {}
-void AInteractActor::InteractGripActionPressed_Implementation() {}
-void AInteractActor::InteractGripActionReleased_Implementation() {}
-void AInteractActor::InteractTrackpadActionPressed_Implementation() {}
-void AInteractActor::InteractTrackpadActionReleased_Implementation() {}

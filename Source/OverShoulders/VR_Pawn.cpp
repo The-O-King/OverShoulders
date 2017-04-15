@@ -78,4 +78,9 @@ void AVR_Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	InputComponent->BindAction("GripRight", IE_Pressed, Right, &UHandComponent::GripActionInputPressed);
 	InputComponent->BindAction("TriggerLeft", IE_Pressed, Left, &UHandComponent::TriggerActionInputPressed);
 	InputComponent->BindAction("TriggerRight", IE_Pressed, Right, &UHandComponent::TriggerActionInputPressed);
+	InputComponent->BindAction("TriggerLeft", IE_Released, Left, &UHandComponent::TriggerActionInputReleased);
+	InputComponent->BindAction("TriggerRight", IE_Released, Right, &UHandComponent::TriggerActionInputReleased);
+	InputComponent->BindAction("TrackpadLeft", IE_Pressed, Left, &UHandComponent::TrackpadActionInputPressed);
+	InputComponent->BindAction("TrackpadRight", IE_Pressed, Right, &UHandComponent::TrackpadActionInputPressed);
+
 }
