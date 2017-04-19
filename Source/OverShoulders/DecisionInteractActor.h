@@ -16,8 +16,12 @@ class OVERSHOULDERS_API ADecisionInteractActor : public AInteractActor
 public:
 	
 	ADecisionInteractActor();
-
+	
+	// Called every frame
 	virtual void Tick(float DeltaSeconds) override;
+
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -33,9 +37,13 @@ public:
 		void IsSelected();
 	UFUNCTION()
 		void DecisionTime();
+	UFUNCTION()
+		void IsPointedAt();
+	UFUNCTION()
+		void IsNotPointed();
 
 	//void InteractTriggerAxis_Implementation(float AxisValue);
-	void InteractTriggerActionPressed_Implementation();
+	//void InteractTriggerActionPressed_Implementation();
 	//void InteractTriggerActionReleased_Implementation();
 	//void InteractGripActionPressed_Implementation();
 	//void InteractGripActionReleased_Implementation();

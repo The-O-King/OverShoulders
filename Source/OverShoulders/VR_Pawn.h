@@ -5,6 +5,8 @@
 #include "GameFramework/Pawn.h"
 #include "VR_Pawn.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FExploreTimer);
+
 UCLASS()
 class OVERSHOULDERS_API AVR_Pawn : public APawn
 {
@@ -22,6 +24,12 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+
+	// Wrapper for Broadcast of ExploreTimer
+	void ExploreTimeUp();
+
+	// What to do when DecisionTime has completed
+	void DecisionTimeUp();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* DefaultRoot;
@@ -44,4 +52,13 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class USteamVRChaperoneComponent* SteamVR;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		float expTime;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		float decTime;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		FTimerHandle GameTimerHandle;
+
+	FExploreTimer ExploreTimer_Complete;
 };

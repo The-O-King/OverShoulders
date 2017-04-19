@@ -18,6 +18,13 @@ ADecisionInteractActor::ADecisionInteractActor() {
 	Hitbox->OnComponentBeginOverlap.AddDynamic(this, &ADecisionInteractActor::OnOverlapWithHandBegin);
 }
 
+void ADecisionInteractActor::BeginPlay() {
+	Super::BeginPlay();
+
+	AVR_Pawn* pl = Cast<AVR_Pawn>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	pl->ExploreTimer_Complete.AddDynamic(this, &ADecisionInteractActor::DecisionTime);
+}
+
 // Called every frame
 void ADecisionInteractActor::Tick(float DeltaTime)
 {
@@ -42,27 +49,28 @@ void ADecisionInteractActor::Tick(float DeltaTime)
 
 void ADecisionInteractActor::OnOverlapWithHandBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 	UE_LOG(LogTemp, Warning, TEXT("DecisionActor Overlap Begin with %s"), *OtherActor->GetName());
-	AVR_Pawn* hit = Cast<AVR_Pawn>(OtherActor);
-	if (hit != NULL)
-		IsSelected();
+	//AVR_Pawn* hit = Cast<AVR_Pawn>(OtherActor);
+	//if (hit != NULL)
+	//	IsSelected();
+}
+
+void ADecisionInteractActor::IsPointedAt() {
+	if (!ConsequenceText->bVisible && BaseText->bVisible)
+		ConsequenceText->SetVisibility(true);
+}
+
+void ADecisionInteractActor::IsNotPointed() {
+	ConsequenceText->SetVisibility(false);
 }
 
 void ADecisionInteractActor::IsSelected() {
-	UE_LOG(LogTemp, Warning, TEXT("Base Text: %s Consequence Text: %s"), (BaseText->bVisible ? TEXT("True") : TEXT("False")), (ConsequenceText->bVisible ? TEXT("True") : TEXT("False")));
-	//if (!BaseText->bVisible)
-	//	BaseText->SetVisibility(true);
-	if (!ConsequenceText->bVisible)
-		ConsequenceText->SetVisibility(true);
-	else
+	UE_LOG(LogTemp, Warning, TEXT("Selected: %s"), *GetName());
+	if (BaseText->bVisible) {
 		UGameplayStatics::OpenLevel(this, LevelToLoad, false);
-	//else
-	//Start Timer for decision
+		GetWorldTimerManager().ClearAllTimersForObject(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	}
 }
 
 void ADecisionInteractActor::DecisionTime() {
 	BaseText->SetVisibility(true);
-}
-
-void ADecisionInteractActor::InteractTriggerActionPressed_Implementation() {
-	UGameplayStatics::OpenLevel(this, LevelToLoad, false);
 }

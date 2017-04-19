@@ -53,19 +53,32 @@ AVR_Pawn::AVR_Pawn()
 	// Create SteamVR Chaperone
 	SteamVR = CreateDefaultSubobject<USteamVRChaperoneComponent>(TEXT("SteamVRChaperoneComponent"));
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+	expTime = 10;
+	decTime = 10;
 }
 
 // Called when the game starts or when spawned
 void AVR_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
+	GetWorldTimerManager().SetTimer(GameTimerHandle, this, &AVR_Pawn::ExploreTimeUp, expTime, false);
 }
 
 // Called every frame
 void AVR_Pawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AVR_Pawn::ExploreTimeUp() {
+	UE_LOG(LogTemp, Warning, TEXT("Explore Time Is Up"));
+	ExploreTimer_Complete.Broadcast();
+	GetWorldTimerManager().SetTimer(GameTimerHandle, this, &AVR_Pawn::DecisionTimeUp, decTime, false);
+}
+
+void AVR_Pawn::DecisionTimeUp() {
 
 }
 

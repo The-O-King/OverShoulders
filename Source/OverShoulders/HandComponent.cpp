@@ -20,13 +20,22 @@ void UHandComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FA
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	if (isPointing) {
 		FHitResult hitinfo;
-		GetWorld()->LineTraceSingleByChannel(hitinfo, GetComponentLocation(), GetComponentLocation() + GetComponentRotation().Vector() * 256, ECollisionChannel::ECC_WorldDynamic);
+		GetWorld()->LineTraceSingleByChannel(hitinfo, GetComponentLocation(), GetComponentLocation() + GetComponentRotation().Vector() * 1000, ECollisionChannel::ECC_WorldDynamic);
 		if (hitinfo.GetActor() != NULL) {
 			UE_LOG(LogTemp, Warning, TEXT("Pointing at: %s"), *(hitinfo.GetActor())->GetName());
 			ADecisionInteractActor* test = Cast<ADecisionInteractActor>(hitinfo.GetActor());
-			if (test != NULL)
+			if (test != NULL) {
 				PointedTo = test;
+				PointedTo->IsPointedAt();
+			}
+			else {
+				if (PointedTo != NULL)
+					PointedTo->IsNotPointed();
+				PointedTo = NULL;
+			}
 		}
+		else
+			PointedTo = NULL;
 	}
 
 }
@@ -62,6 +71,9 @@ void UHandComponent::TriggerActionInputPressed_Implementation() {
 void UHandComponent::TriggerActionInputReleased_Implementation() {
 	UE_LOG(LogTemp, Warning, TEXT("%s Trigger Released"), *this->GetName());
 	isPointing = false;
+	if (PointedTo != NULL)
+		PointedTo->IsNotPointed();
+	PointedTo = NULL;
 }
 void UHandComponent::GripActionInputPressed_Implementation() {
 	UE_LOG(LogTemp, Warning, TEXT("%s Grip Pressed"), *this->GetName());
@@ -85,6 +97,8 @@ void UHandComponent::TrackpadActionInputPressed_Implementation() {
 	UE_LOG(LogTemp, Warning, TEXT("%s Trackpad Pressed"), *this->GetName());
 	if (PointedTo != NULL)
 		PointedTo->IsSelected();
+	else if (IsBusy != NULL)
+		IsBusy->IsSelected();
 }
 
 void UHandComponent::TriggerAxisInput_Implementation(float AxisValue) { }

@@ -26,7 +26,7 @@ public:
 		UBoxComponent* Hitbox;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		bool IsInteracted;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool isPickupable;
 
 };
