@@ -4,6 +4,7 @@
 #include "HeadMountedDisplay.h"
 #include "HandComponent.h"
 #include "InteractActor.h"
+#include "WidgetComponent.h"
 #include "SteamVRChaperoneComponent.h"
 #include "VR_Pawn.h"
 
@@ -30,6 +31,14 @@ AVR_Pawn::AVR_Pawn()
 	// Create the Camera and subsequent HMD
 	HMD = CreateDefaultSubobject<UCameraComponent>(TEXT("HMD"));
 	HMD->SetupAttachment(Container);
+
+	// Create the Timer and Decision Text
+	Timer = CreateDefaultSubobject<UWidgetComponent>(TEXT("Timer"));
+	Timer->SetupAttachment(HMD);
+	Timer->SetVisibility(false);
+	DecisionText = CreateDefaultSubobject<UTextRenderComponent>(TEXT("Decision Text"));
+	DecisionText->SetupAttachment(HMD);
+	DecisionText->SetVisibility(false);
 
 	// Create the players Left and Right hands
 	Left = CreateDefaultSubobject<UHandComponent>(TEXT("Left"));
@@ -62,7 +71,6 @@ AVR_Pawn::AVR_Pawn()
 void AVR_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
-	
 	GetWorldTimerManager().SetTimer(GameTimerHandle, this, &AVR_Pawn::ExploreTimeUp, expTime, false);
 }
 
@@ -76,6 +84,8 @@ void AVR_Pawn::ExploreTimeUp() {
 	UE_LOG(LogTemp, Warning, TEXT("Explore Time Is Up"));
 	ExploreTimer_Complete.Broadcast();
 	GetWorldTimerManager().SetTimer(GameTimerHandle, this, &AVR_Pawn::DecisionTimeUp, decTime, false);
+	Timer->SetVisibility(true);
+	DecisionText->SetVisibility(true);
 }
 
 void AVR_Pawn::DecisionTimeUp() {

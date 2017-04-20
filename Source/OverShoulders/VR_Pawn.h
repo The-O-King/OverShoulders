@@ -41,6 +41,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UCameraComponent* HMD;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		UTextRenderComponent* DecisionText;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		class UWidgetComponent* Timer;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class UHandComponent* Left;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		USkeletalMeshComponent* MeshL;
@@ -52,9 +56,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class USteamVRChaperoneComponent* SteamVR;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float expTime;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float decTime;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
