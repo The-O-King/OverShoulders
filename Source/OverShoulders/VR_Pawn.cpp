@@ -4,6 +4,7 @@
 #include "HeadMountedDisplay.h"
 #include "HandComponent.h"
 #include "InteractActor.h"
+#include "DecisionInteractActor.h"
 #include "WidgetComponent.h"
 #include "SteamVRChaperoneComponent.h"
 #include "VR_Pawn.h"
@@ -89,7 +90,11 @@ void AVR_Pawn::ExploreTimeUp() {
 }
 
 void AVR_Pawn::DecisionTimeUp() {
-
+	TActorIterator<ADecisionInteractActor> ActorItr(GetWorld());
+	int num = rand() % 2;
+	for (int x = 0; x < num; x++)
+		++ActorItr;
+	ActorItr->IsSelected();
 }
 
 // Called to bind functionality to input
