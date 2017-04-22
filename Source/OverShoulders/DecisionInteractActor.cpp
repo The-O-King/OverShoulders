@@ -15,6 +15,8 @@ ADecisionInteractActor::ADecisionInteractActor() {
 	ConsequenceText->SetupAttachment(Shape);
 	ConsequenceText->bVisible = false;
 
+	RotateText = true;
+
 	Hitbox->OnComponentBeginOverlap.AddDynamic(this, &ADecisionInteractActor::OnOverlapWithHandBegin);
 }
 
@@ -33,7 +35,7 @@ void ADecisionInteractActor::Tick(float DeltaTime)
 	//Add Text Rotation to Face the Player always
 	FVector playerHeadLoc = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->GetCameraLocation();
 	FRotator playerHeadRot = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->GetCameraRotation();
-	//if (player != NULL) {
+	if (RotateText) {
 		FRotator newrot = (playerHeadLoc - BaseText->GetComponentLocation()).Rotation();
 		if (BaseText->bVisible)
 			BaseText->SetWorldRotation(newrot);
@@ -44,7 +46,7 @@ void ADecisionInteractActor::Tick(float DeltaTime)
 			//ConsequenceText->SetWorldLocation(ConsequenceText->GetComponentLocation().RotateAngleAxis(1, GetRootComponent()->GetComponentLocation().UpVector));
 			ConsequenceText->SetWorldRotation(newrot);
 		}
-	//}
+	}
 }
 
 void ADecisionInteractActor::OnOverlapWithHandBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {

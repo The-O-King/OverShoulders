@@ -26,6 +26,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName LevelToLoad;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool RotateText;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UTextRenderComponent* BaseText;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
