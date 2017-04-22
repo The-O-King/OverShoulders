@@ -4,6 +4,6 @@
 	"BuildId" : "",
 	"Modules" : 
 	{
-		"OceanPlugin" : "UE4Editor-OceanPlugin-9362.dll"
+		"OceanPlugin" : "UE4Editor-OceanPlugin.dll"
 	}
 }
