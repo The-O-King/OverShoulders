@@ -16,6 +16,7 @@ ADecisionInteractActor::ADecisionInteractActor() {
 	ConsequenceText->bVisible = false;
 
 	RotateText = true;
+	levelFadeOutTime = 5;
 
 	Hitbox->OnComponentBeginOverlap.AddDynamic(this, &ADecisionInteractActor::OnOverlapWithHandBegin);
 }
@@ -70,8 +71,8 @@ void ADecisionInteractActor::IsSelected() {
 	UE_LOG(LogTemp, Warning, TEXT("Selected: %s"), *GetName());
 	if (BaseText->bVisible) {
 		GetWorldTimerManager().ClearAllTimersForObject(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-		UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->StartCameraFade(0, 1, 5, FLinearColor::Black, true, true);
-		GetWorldTimerManager().SetTimer(UnusedHandle, this, &ADecisionInteractActor::LevelLoadWrapper, 6.5, false);
+		UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->StartCameraFade(0, 1, levelFadeOutTime, FLinearColor::Black, true, true);
+		GetWorldTimerManager().SetTimer(UnusedHandle, this, &ADecisionInteractActor::LevelLoadWrapper, levelFadeOutTime + 1, false);
 	}
 }
 

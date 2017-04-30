@@ -45,14 +45,6 @@ public:
 		void IsNotPointed();
 	UFUNCTION()
 		void LevelLoadWrapper();
-
-	//void InteractTriggerAxis_Implementation(float AxisValue);
-	//void InteractTriggerActionPressed_Implementation();
-	//void InteractTriggerActionReleased_Implementation();
-	//void InteractGripActionPressed_Implementation();
-	//void InteractGripActionReleased_Implementation();
-	//void InteractTrackpadActionPressed_Implementation();
-	//void InteractTrackpadActionReleased_Implementation();
-	
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float levelFadeOutTime;
 };

@@ -60,6 +60,8 @@ public:
 		float expTime;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float decTime;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float levelFadeInTime;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		FTimerHandle GameTimerHandle;

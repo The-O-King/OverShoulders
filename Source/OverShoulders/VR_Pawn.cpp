@@ -44,7 +44,7 @@ AVR_Pawn::AVR_Pawn()
 	// Create the players Left and Right hands
 	Left = CreateDefaultSubobject<UHandComponent>(TEXT("Left"));
 	Left->SetupAttachment(Container);
-	Left->RegisterComponent();
+	//Left->RegisterComponent();
 	Left->Hand = EControllerHand::Left;
 	MeshL = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshL"));
 	MeshL->SetupAttachment(Left);
@@ -53,7 +53,7 @@ AVR_Pawn::AVR_Pawn()
 
 	Right = CreateDefaultSubobject<UHandComponent>(TEXT("Right"));
 	Right->SetupAttachment(Container);
-	Right->RegisterComponent();
+	//Right->RegisterComponent();
 	Right->Hand = EControllerHand::Right;
 	MeshR = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshR"));
 	MeshR->SetupAttachment(Right);
@@ -66,13 +66,14 @@ AVR_Pawn::AVR_Pawn()
 
 	expTime = 10;
 	decTime = 10;
+	levelFadeInTime = 15;
 }
 
 // Called when the game starts or when spawned
 void AVR_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
-	UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->StartCameraFade(1, 0, 15, FLinearColor::Black, false, true);
+	UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->StartCameraFade(1, 0, levelFadeInTime, FLinearColor::Black, false, true);
 	GetWorldTimerManager().SetTimer(GameTimerHandle, this, &AVR_Pawn::ExploreTimeUp, expTime, false);
 }
 
