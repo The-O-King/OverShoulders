@@ -66,11 +66,17 @@ void ADecisionInteractActor::IsNotPointed() {
 }
 
 void ADecisionInteractActor::IsSelected() {
+	FTimerHandle UnusedHandle;
 	UE_LOG(LogTemp, Warning, TEXT("Selected: %s"), *GetName());
 	if (BaseText->bVisible) {
-		UGameplayStatics::OpenLevel(this, LevelToLoad, false);
 		GetWorldTimerManager().ClearAllTimersForObject(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+		UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->StartCameraFade(0, 1, 5, FLinearColor::Black, true, true);
+		GetWorldTimerManager().SetTimer(UnusedHandle, this, &ADecisionInteractActor::LevelLoadWrapper, 6.5, false);
 	}
+}
+
+void ADecisionInteractActor::LevelLoadWrapper() {
+	UGameplayStatics::OpenLevel(this, LevelToLoad, false);
 }
 
 void ADecisionInteractActor::DecisionTime() {

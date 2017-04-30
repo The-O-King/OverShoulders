@@ -43,6 +43,8 @@ public:
 		void IsPointedAt();
 	UFUNCTION()
 		void IsNotPointed();
+	UFUNCTION()
+		void LevelLoadWrapper();
 
 	//void InteractTriggerAxis_Implementation(float AxisValue);
 	//void InteractTriggerActionPressed_Implementation();

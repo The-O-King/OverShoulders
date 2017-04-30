@@ -72,6 +72,7 @@ AVR_Pawn::AVR_Pawn()
 void AVR_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
+	UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0)->StartCameraFade(1, 0, 15, FLinearColor::Black, false, true);
 	GetWorldTimerManager().SetTimer(GameTimerHandle, this, &AVR_Pawn::ExploreTimeUp, expTime, false);
 }
 
@@ -94,7 +95,8 @@ void AVR_Pawn::DecisionTimeUp() {
 	int num = rand() % 2;
 	for (int x = 0; x < num; x++)
 		++ActorItr;
-	ActorItr->IsSelected();
+	if (*ActorItr != NULL)
+		ActorItr->IsSelected();
 }
 
 // Called to bind functionality to input
