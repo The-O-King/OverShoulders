@@ -47,4 +47,6 @@ public:
 		void LevelLoadWrapper();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float levelFadeOutTime;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool IsEnding;
 };
