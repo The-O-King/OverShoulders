@@ -28,6 +28,8 @@ New Bugs found / Ideas Had 5/3/2017
 27. The loops with the detention center is a little weird/unexpained
 28. Long timer start on Libya apt destroyed
 29: Vibration on collision with other refugees
+30: Fine tune boat physics to prevent clipping under the ocean and then popping
+
 Bugs:
 
 Ideas:
