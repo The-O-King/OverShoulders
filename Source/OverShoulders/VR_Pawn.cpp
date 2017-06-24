@@ -113,5 +113,6 @@ void AVR_Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	InputComponent->BindAction("TriggerRight", IE_Released, Right, &UHandComponent::TriggerActionInputReleased);
 	InputComponent->BindAction("TrackpadLeft", IE_Pressed, Left, &UHandComponent::TrackpadActionInputPressed);
 	InputComponent->BindAction("TrackpadRight", IE_Pressed, Right, &UHandComponent::TrackpadActionInputPressed);
-
+	InputComponent->BindAction("MenuButtonLeft", IE_Pressed, Left, &UHandComponent::MenuActionInputPressed);
+	InputComponent->BindAction("MenuButtonRight", IE_Pressed, Right, &UHandComponent::MenuActionInputPressed);
 }

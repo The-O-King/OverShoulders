@@ -40,7 +40,8 @@ public:
 		void TrackpadActionInputPressed();
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
 		void TrackpadActionInputReleased();
-
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Controls")
+		void MenuActionInputPressed();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class AInteractActor* IsBusy;

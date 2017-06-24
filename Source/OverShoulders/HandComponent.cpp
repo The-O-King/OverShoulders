@@ -5,6 +5,7 @@
 #include "InteractActor.h"
 #include "DecisionInteractActor.h"
 #include "HandComponent.h"
+#include "VR_GameInstance.h"
 
 UHandComponent::UHandComponent(){
 
@@ -21,8 +22,14 @@ void UHandComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FA
 	if (isPointing) {
 		FHitResult hitinfo;
 		GetWorld()->LineTraceSingleByChannel(hitinfo, GetComponentLocation(), GetComponentLocation() + GetComponentRotation().Vector() * 1000, ECollisionChannel::ECC_WorldDynamic);
+		UVR_GameInstance* instance = Cast<UVR_GameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+		if (instance->debugMode)
+			DrawDebugLine(GetWorld(), GetComponentLocation(), GetComponentLocation() + GetComponentRotation().Vector() * 1000, FColor::Red, false, -1, 0, .5);
 		if (hitinfo.GetActor() != NULL) {
-			UE_LOG(LogTemp, Warning, TEXT("Pointing at: %s"), *(hitinfo.GetActor())->GetName());
+			if (instance->debugMode) {
+				UE_LOG(LogTemp, Warning, TEXT("Pointing at: %s"), *(hitinfo.GetActor())->GetName());
+				DrawDebugPoint(GetWorld(), hitinfo.ImpactPoint, 5, FColor::Green, false, -1, 0.1);
+			}
 			ADecisionInteractActor* test = Cast<ADecisionInteractActor>(hitinfo.GetActor());
 			if (test != NULL) {
 				PointedTo = test;
@@ -38,6 +45,12 @@ void UHandComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FA
 			PointedTo = NULL;
 	}
 
+}
+
+void UHandComponent::MenuActionInputPressed_Implementation() {
+	UVR_GameInstance* instance = Cast<UVR_GameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+	instance->debugMode = !instance->debugMode;
+	UE_LOG(LogTemp, Warning, TEXT("Debug Mode %s"), instance->debugMode ? TEXT("Enabled") : TEXT("Disabled"));
 }
 
 void UHandComponent::OnHandOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) {
