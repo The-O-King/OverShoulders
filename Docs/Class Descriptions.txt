@@ -1,0 +1,183 @@
+**Make it so that as soon as the player is pointed at a decision object the hand starts to point
+**Get rid of the Red laser, keep the Green dot
+**Refactor IsPointedAt() and IsNotPointed() and IsSelected() to AInteractActor?
+**Fix issue where there must be two decision actors present in each level
+**Fix issue where level fade in (VR_Pawn) and fade out (DecisionActor) are in separate classes (put in Game Instance?)
+**Use Game Instance to store the decision tree the player has made, their inventory, menu options
+**Make ClearHands a static function???
+
+AVR_Pawn
+Class that represents the player
+
+Variables:
+*expTime = Amount of time the player has to explore before the timer shows up
+*decTime = Amount of time the player has to make a decision
+*levelFadeInTime = Amount of time it takes for the fade-to-black to occur between levels
+*DecisionText = Text that appears when the exploration time shows up
+*FExploreTimer = Multicast Delegate to allow for other objects to listen for when the explore timer has completed
+*GameTimerHandle = Timer object that keeps track of how much time has passed. Used to update explore/decision time
+
+Functions:
+*AVR_Pawn()
+**Constructor: Initializes all the components and parents them properly
+**Also sets default values for primitive types
+
+*BeginPlay()
+**Function called at the beginning of every level load
+**Currently used to bind the explore timer handler to call the ExploreTimeUp() function
+
+*Tick(float DeltaSeconds)
+**Called once every frame. DeltaSeconds is how much time has passed between the previous frame and this frame
+**Currently Does nothing
+
+*SetupPlayerInputComponent()
+**Function which is called to bind other functions to be called when the player presses a respective button on the controller
+**If you want to change what a button does and have written a method for it then you need to change it here!
+**Same deal if you want to add a new button that previously was not mapped before
+**Need to make sure that the button is also setup in the Input Setting of Unreal itself (Under Project Settings)
+
+*ExploreTimeUp()
+**Function that is called when the exploration time of a level has ended
+
+*DecisionTimeUp()
+**Function that is called when the decision time of a level has ended
+
+
+
+
+AInteractActor
+Class that represents all objects we can interact with
+Inherit from this object to allow for polymorphism
+
+Variables
+*IsInteracted = Whether or not this object is being interacted with by the player
+*isPickupable = Whether or not the player can pickup the object and move it around freely
+*Shape = The Static Mesh that represents the way the object will look in game
+*Hitbox = An invisible 3D Shape that represents how close the player needs to get to actually be considered as "touching" the object. Does not have to actually be a box
+
+Functions:
+*AInteractActor()
+**Constructor: Initializes all the components and parents them properly
+**Also sets default values for primitive types
+
+
+
+
+ADecisionInteractActor
+Class that represents objects which are used in game for the player to make a decision with
+
+Variables:
+*BaseText = Text that pops up as soon as decision time begins. Provides a base level of information about what this decision entails
+*ConsequenceText = Text that appears only when the player actually decides to point at this decision. Provides information about what could happen if this choice is made
+*RotateText = boolean to decide if you want the text to rotate to face the player or to stay static as it is set in this instance of the decision actor
+*LevelToLoad = Name of the level to load if this decision is selected
+*levelFadeOutTime = Amount of time it takes for the level to fade to black before loading the next level
+*IsEnding = Flag which indicates whether or not the current level is ending
+
+Functions:
+*ADecisionInteractActor()
+**Constructor: Initializes all the components and parents them properly
+**Also sets default values for primitive types
+**Also Binds the overlap events so that they fire if this object is overlapped with the player's hands (currently does not do anything though)
+
+*BeginPlay()
+**Function called at the beginning of every level load
+**Currently used to bind the explore timer handler to call the DecisionTime() function
+
+*Tick(float DeltaSeconds)
+**Function called every frame and is currently used to set the rotation of the text if RotateText is true
+
+*OnOverlapWithHandBegin()
+**Function that is called when the hand begins to overlap with this object
+**Currently does not do anything other then write to the log
+
+*IsPointedAt()
+**Function called when this object is pointed at by the player
+**Currently sets the Consequence Text to visible if the BaseText is already visible
+
+IsNotPointedAt()
+**Function called when this object is no longer pointed at by the player
+**Currently sets the Consequence Text to invisible
+
+IsSelected()
+**Function that is called when the player decides to select this object as their decision
+**Sets the IsEnding flag to true, clears all timers for the player, starts the camera fade to black, and sets a new timer to load the next level
+
+*LevelLoadWrapper()
+**Wrapper function to allow for the level loading function to be called with timers (see IsSelected())
+
+*DecisionTime()
+**Function called when the explore timer is up and decision time has begun
+**Sets the Base Text to be visible
+
+
+
+
+UMotionControllerComponent
+Class provided by SteamVR SDK that provides us with the ability to track the controllers
+
+Variables:
+*Hand = An Enum that dictates which hand this controller should be (Left or Right)
+
+
+
+
+UHandComponent
+Class which represents the functionality of each individual hand the player has
+
+Variables:
+*IsBusy = Flag for whether or not this hand is interacting with something
+*Nearby = Stores the object or not this hand is near an AInteractActor that it can interact with (decided by that object's hitbox) (null if not nearby anything)
+*PointedTo = The DecisionActor that the hand is currently pointing at (null if not pointing at anything)
+*isPointing = Flag for whether or not the hand is in the pointing state or not
+
+Functions
+*UHandComponent()
+**Constructor: sets the default value for all the variables of the object
+
+*TickComponent(Float DeltaTime)
+**The meat and potatoes of this class. If the hand is pointing, does a raytrace from the hand out 1000 units. If it hits an object then it will test if this object is a DecisionActor or not. If it is then it will call the DecisionActor's IsPointedAt() function.
+**If the player is pointing and not hitting a DecisionActor then if the player was hitting one before, we call that object's IsNotPointed() function and then set PointedTo = NULL
+**If the player is pointing and not hitting anything then just set PointedTo = NULL
+
+*MenuActionInputPressed()
+**Function called when the menu button on the controller is pressed
+**Currently sends the game into debug mode (which creates laser pointers when pointing)
+
+*OnHandOverlapBegin()
+**Function called when this hand starts overlapping with an object
+**Sets Nearby = whatever InteractActor is nearby
+
+*OnHandOverlapEnd()
+**Function called when this hand stops overlapping with an object
+**Sets Nearby = NULL
+
+*ClearHands()
+**Function that is used to empty the player's hands of any objects they maybe interacting with at the time
+
+*TriggerActionInputPressed()
+**Function called when the trigger is pressed all the way down
+**Currently sets the isPointing flag to true
+
+*TriggerActionInputReleased()
+**Function called when the trigger is no longer pressed all the way down
+**Currently sets the isPointing flag to false and called IsNotPointed() on the object the hand was pointing at if such an object exists
+
+*GripActionInputPressed()
+**Function called when the side grips of the controller are pressed. Acts as a toggle
+**Currently checks if there is a Nearby object and whether or not that object isPickupable. If so it will clear the hands of any currently interacted objects, set IsBusy = Nearby, stop simulating physics on the IsBusy object and set it's IsInteracted = true
+**If you already have something in your hands (IsBusy != NULL) then drop the object by setting it to simulate physics again, set it's IsInteracted = false, and set IsBusy = NULL
+
+*TrackpadActionInputPresser()
+**Function called when the trackpad is pressed down
+**If the hand is pointing at an object then it will call the IsSelected() function of that object
+**If the hand is currently interacting with an object it will call the IsSelected() function of that object
+
+*TriggerAxisInput(float AxisValue)
+**Function that exists but is not currently defined or in use
+
+*GripActionInputReleased()
+**Function that exists but is not currently defined or in use
+
+*TrackpadActionInputReleased()
+**Function that exists but is not currently defined or in use
