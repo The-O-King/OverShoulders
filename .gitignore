@@ -65,6 +65,9 @@ Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Plugin Folders
+Plugins/OceanPlugin/*
+
 # =========================
 # Operating System Files
 # =========================
